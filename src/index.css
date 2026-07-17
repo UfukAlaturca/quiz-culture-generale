@@ -1,1 +1,86 @@
 @import "tailwindcss";
+
+@theme {
+  /* Polices : Baloo 2 pour les titres (arrondie, ludique), Nunito pour le texte courant */
+  --font-titre: "Baloo 2", sans-serif;
+  --font-corps: "Nunito", sans-serif;
+
+  /* Palette "ludique". Chaque couleur a sa variante -nuit pour le mode sombre,
+     appliquée dans les composants via le préfixe dark: (Tailwind détecte automatiquement
+     les préférences système, aucune configuration supplémentaire n'est nécessaire). */
+  --color-fond: #fff4e0;
+  --color-fond-nuit: #241a10;
+
+  --color-carte: #ffffff;
+  --color-carte-nuit: #2f2418;
+
+  --color-texte: #2b2118;
+  --color-texte-nuit: #fbeedd;
+
+  --color-texte-doux: #6b5d4f;
+  --color-texte-doux-nuit: #c9b79e;
+
+  --color-badge-fond: #ffe1a8;
+  --color-badge-fond-nuit: #4a3520;
+
+  --color-badge-texte: #b5590c;
+  --color-badge-texte-nuit: #ffc876;
+
+  --color-accent: #f4a93b;
+  --color-accent-nuit: #ffb84d;
+
+  --color-accent-ombre: #c77f14;
+  --color-accent-ombre-nuit: #8f5209;
+
+  --color-carte-ombre: #f4a93b;
+  --color-carte-ombre-nuit: #6b4a16;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-corps);
+  }
+}
+
+/* Classes utilitaires pour l'effet de "relief" (ombre pleine, sans flou) du style ludique.
+   Ecrites à la main plutôt qu'en classes Tailwind : ce type d'ombre à double couche avec
+   variante jour/nuit est plus lisible ainsi qu'en accumulant des valeurs arbitraires. */
+@layer components {
+  .carte-ludique {
+    background-color: var(--color-carte);
+    border-radius: 32px;
+    box-shadow:
+      0 8px 0 var(--color-carte-ombre),
+      0 12px 24px rgba(244, 169, 59, 0.25);
+  }
+
+  .bouton-principal-ludique {
+    background-color: var(--color-accent);
+    color: var(--color-texte);
+    box-shadow: 0 5px 0 var(--color-accent-ombre);
+  }
+
+  .bouton-principal-ludique:active {
+    box-shadow: 0 2px 0 var(--color-accent-ombre);
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .carte-ludique {
+    background-color: var(--color-carte-nuit);
+    box-shadow:
+      0 8px 0 var(--color-carte-ombre-nuit),
+      0 12px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .bouton-principal-ludique {
+    background-color: var(--color-accent-nuit);
+    color: var(--color-fond-nuit);
+    box-shadow: 0 5px 0 var(--color-accent-ombre-nuit);
+  }
+
+  .bouton-principal-ludique:active {
+    box-shadow: 0 2px 0 var(--color-accent-ombre-nuit);
+  }
+}

@@ -10,11 +10,13 @@ function FiltreValeur({ axe, options, onChoisirValeur, onRetour }) {
   const cle = axe === 'categorie' ? 'categorie' : 'niveau'
 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-8">
-      <h1 className="text-xl font-bold text-slate-800 text-center mb-6">{titre}</h1>
+    <div className="carte-ludique p-8">
+      <h1 className="font-titre font-extrabold text-xl text-texte dark:text-texte-nuit text-center mb-6">
+        {titre}
+      </h1>
 
       {options.length === 0 && (
-        <p className="text-slate-500 text-center mb-6">
+        <p className="text-texte-doux dark:text-texte-doux-nuit text-center mb-6">
           Pas encore assez de questions disponibles sur cet axe. Reviens quand la banque se sera
           étoffée.
         </p>
@@ -25,19 +27,21 @@ function FiltreValeur({ axe, options, onChoisirValeur, onRetour }) {
           <button
             key={option[cle]}
             onClick={() => onChoisirValeur(option[cle])}
-            className="w-full text-left border border-slate-200 rounded-xl px-4 py-3 hover:bg-slate-50 transition-colors flex justify-between items-center"
+            className="w-full text-left border-2 border-badge-fond dark:border-badge-fond-nuit bg-carte dark:bg-carte-nuit rounded-2xl px-4 py-3 hover:bg-badge-fond/20 dark:hover:bg-badge-fond-nuit/20 transition-colors flex justify-between items-center"
           >
-            <span className="font-medium text-slate-800">
+            <span className="font-bold text-texte dark:text-texte-nuit">
               {axe === 'categorie' ? option.categorie : LABELS_NIVEAU[option.niveau]}
             </span>
-            <span className="text-sm text-slate-400">{option.total} questions</span>
+            <span className="text-sm text-texte-doux dark:text-texte-doux-nuit">
+              {option.total} questions
+            </span>
           </button>
         ))}
       </div>
 
       <button
         onClick={onRetour}
-        className="text-slate-400 font-medium px-6 py-2 hover:text-slate-600 transition-colors"
+        className="text-texte-doux dark:text-texte-doux-nuit font-semibold px-6 py-2 hover:text-texte dark:hover:text-texte-nuit transition-colors"
       >
         ← Retour
       </button>

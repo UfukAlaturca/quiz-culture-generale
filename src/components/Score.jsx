@@ -4,9 +4,6 @@ import { construireTextePartage } from '../partage'
 function Score({ score, total, historique, titreQuiz, onRejouer }) {
   const [etatBouton, setEtatBouton] = useState('inactif') // 'inactif' | 'succes' | 'echec'
 
-  // Partage natif = le menu de partage du système (WhatsApp, Messages, Instagram, etc.),
-  // disponible sur la plupart des navigateurs mobiles. On vérifie qu'il existe avant de l'utiliser,
-  // sinon on retombe sur la copie dans le presse-papier (comportement des navigateurs de bureau).
   const partageNatifDisponible = typeof navigator !== 'undefined' && typeof navigator.share === 'function'
 
   async function partagerResultat() {
@@ -16,7 +13,6 @@ function Score({ score, total, historique, titreQuiz, onRejouer }) {
       try {
         await navigator.share({ text: texte })
       } catch (erreur) {
-        // Si l'utilisateur annule simplement le menu de partage, ce n'est pas une erreur à signaler.
         if (erreur.name !== 'AbortError') {
           setEtatBouton('echec')
           setTimeout(() => setEtatBouton('inactif'), 2000)
@@ -41,12 +37,14 @@ function Score({ score, total, historique, titreQuiz, onRejouer }) {
   }
 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-6">
-      <h1 className="text-2xl font-bold text-slate-800 text-center mb-1">Résultat</h1>
+    <div className="carte-ludique p-6">
+      <h1 className="font-titre font-extrabold text-2xl text-texte dark:text-texte-nuit text-center mb-1">
+        Résultat
+      </h1>
       {titreQuiz && (
-        <p className="text-center text-sm text-slate-400 mb-1">{titreQuiz}</p>
+        <p className="text-center text-sm text-texte-doux dark:text-texte-doux-nuit mb-1">{titreQuiz}</p>
       )}
-      <p className="text-center text-slate-500 mb-6">
+      <p className="text-center font-titre font-bold text-badge-texte dark:text-badge-texte-nuit mb-6">
         {score} / {total} bonnes réponses
       </p>
 
@@ -54,16 +52,22 @@ function Score({ score, total, historique, titreQuiz, onRejouer }) {
         {historique.map((entree, index) => (
           <div
             key={entree.id}
-            className={`rounded-xl border p-3 text-sm ${
-              entree.correct ? 'border-emerald-300 bg-emerald-50' : 'border-rose-300 bg-rose-50'
+            className={`rounded-2xl border-2 p-3 text-sm ${
+              entree.correct
+                ? 'border-emerald-300 dark:border-emerald-700 bg-emerald-50 dark:bg-emerald-900/30'
+                : 'border-rose-300 dark:border-rose-700 bg-rose-50 dark:bg-rose-900/30'
             }`}
           >
-            <p className="font-medium text-slate-700 mb-1">
+            <p className="font-bold text-texte dark:text-texte-nuit mb-1">
               {index + 1}. {entree.question}
             </p>
-            <p className="text-slate-500">Ta réponse : {entree.choix[entree.indexChoisi]}</p>
+            <p className="text-texte-doux dark:text-texte-doux-nuit">
+              Ta réponse : {entree.choix[entree.indexChoisi]}
+            </p>
             {!entree.correct && (
-              <p className="text-slate-500">Bonne réponse : {entree.choix[entree.indexCorrect]}</p>
+              <p className="text-texte-doux dark:text-texte-doux-nuit">
+                Bonne réponse : {entree.choix[entree.indexCorrect]}
+              </p>
             )}
           </div>
         ))}
@@ -71,14 +75,14 @@ function Score({ score, total, historique, titreQuiz, onRejouer }) {
 
       <button
         onClick={partagerResultat}
-        className="w-full bg-slate-100 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:bg-slate-200 transition-colors mb-3"
+        className="w-full bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold px-6 py-3 rounded-2xl hover:opacity-80 transition-opacity mb-3"
       >
         {libelleBouton()}
       </button>
 
       <button
         onClick={onRejouer}
-        className="w-full bg-indigo-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-indigo-700 transition-colors"
+        className="bouton-principal-ludique font-titre font-bold w-full px-6 py-4 rounded-2xl transition-transform"
       >
         Rejouer
       </button>

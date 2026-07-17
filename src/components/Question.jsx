@@ -1,7 +1,10 @@
+
+
+Question · JSX
 import { useState } from 'react'
-
+ 
 const LETTRES = ['A', 'B', 'C', 'D']
-
+ 
 function Question({
   question,
   numero,
@@ -14,35 +17,39 @@ function Question({
 }) {
   const [confirmationQuitter, setConfirmationQuitter] = useState(false)
   const aRepondu = reponseSelectionnee !== null
-
+ 
   function couleurBouton(index) {
     if (!aRepondu) {
-      return 'bg-white hover:bg-slate-100 border-slate-200 text-slate-800'
+      return 'bg-carte dark:bg-carte-nuit hover:bg-badge-fond/20 dark:hover:bg-badge-fond-nuit/20 border-badge-fond dark:border-badge-fond-nuit text-texte dark:text-texte-nuit'
     }
     if (index === question.reponse_correcte) {
-      return 'bg-emerald-100 border-emerald-400 text-emerald-800'
+      return 'bg-emerald-100 dark:bg-emerald-900/40 border-emerald-400 dark:border-emerald-600 text-emerald-800 dark:text-emerald-200'
     }
     if (index === reponseSelectionnee) {
-      return 'bg-rose-100 border-rose-400 text-rose-800'
+      return 'bg-rose-100 dark:bg-rose-900/40 border-rose-400 dark:border-rose-600 text-rose-800 dark:text-rose-200'
     }
-    return 'bg-white border-slate-200 text-slate-400'
+    return 'bg-carte dark:bg-carte-nuit border-badge-fond dark:border-badge-fond-nuit text-texte-doux dark:text-texte-doux-nuit'
   }
-
+ 
   if (confirmationQuitter) {
     return (
-      <div className="bg-white rounded-2xl shadow-md p-6 text-center">
-        <p className="text-slate-700 font-medium mb-2">Abandonner ce quiz ?</p>
-        <p className="text-slate-500 text-sm mb-6">Ta progression sur ces questions sera perdue.</p>
+      <div className="carte-ludique p-6 text-center">
+        <p className="font-titre font-bold text-texte dark:text-texte-nuit mb-2">
+          Abandonner ce quiz ?
+        </p>
+        <p className="text-texte-doux dark:text-texte-doux-nuit text-sm mb-6">
+          Ta progression sur ces questions sera perdue.
+        </p>
         <div className="flex gap-3">
           <button
             onClick={() => setConfirmationQuitter(false)}
-            className="flex-1 bg-slate-100 text-slate-700 font-semibold px-4 py-3 rounded-xl hover:bg-slate-200 transition-colors"
+            className="flex-1 bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold px-4 py-3 rounded-2xl hover:opacity-80 transition-opacity"
           >
             Annuler
           </button>
           <button
             onClick={onQuitter}
-            className="flex-1 bg-rose-600 text-white font-semibold px-4 py-3 rounded-xl hover:bg-rose-700 transition-colors"
+            className="flex-1 bg-rose-600 dark:bg-rose-500 text-white font-bold px-4 py-3 rounded-2xl hover:opacity-90 transition-opacity"
           >
             Quitter
           </button>
@@ -50,50 +57,54 @@ function Question({
       </div>
     )
   }
-
+ 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-6">
-      <div className="w-full bg-slate-100 rounded-full h-2 mb-4">
+    <div className="carte-ludique p-6">
+      <div className="w-full bg-badge-fond dark:bg-badge-fond-nuit rounded-full h-2 mb-4">
         <div
-          className="bg-indigo-600 h-2 rounded-full transition-all"
+          className="bg-accent dark:bg-accent-nuit h-2 rounded-full transition-all"
           style={{ width: `${(numero / total) * 100}%` }}
         />
       </div>
-
+ 
       <div className="flex justify-between items-center mb-2">
-        <p className="text-sm text-slate-400">Question {numero} / {total}</p>
+        <p className="text-sm text-texte-doux dark:text-texte-doux-nuit font-semibold">
+          Question {numero} / {total}
+        </p>
         {modeLibre && (
           <button
             onClick={() => setConfirmationQuitter(true)}
-            className="text-sm text-slate-400 hover:text-slate-600 transition-colors"
+            className="text-sm text-texte-doux dark:text-texte-doux-nuit hover:text-texte dark:hover:text-texte-nuit transition-colors"
           >
             Quitter
           </button>
         )}
       </div>
-
-      <h2 className="text-lg font-semibold text-slate-800 mb-5">{question.question}</h2>
-
+ 
+      <h2 className="font-titre font-bold text-lg text-texte dark:text-texte-nuit mb-5">
+        {question.question}
+      </h2>
+ 
       <div className="space-y-3">
         {question.choix.map((choix, index) => (
           <button
             key={index}
             disabled={aRepondu}
             onClick={() => onRepondre(index)}
-            className={`w-full text-left border rounded-xl px-4 py-3 transition-colors ${couleurBouton(index)}`}
+            className={`w-full text-left border-2 rounded-2xl px-4 py-3 transition-colors ${couleurBouton(index)}`}
           >
-            <span className="font-semibold mr-2">{LETTRES[index]})</span>
+            <span className="font-titre font-bold mr-2">{LETTRES[index]})</span>
             {choix}
           </button>
         ))}
       </div>
-
+ 
       {aRepondu && (
-        <div className="mt-5 p-4 rounded-xl bg-slate-50 text-sm text-slate-600">
+        <div className="mt-5 p-4 rounded-2xl bg-badge-fond/40 dark:bg-badge-fond-nuit/40 text-sm text-texte dark:text-texte-nuit">
           <p className="mb-3">{question.explication}</p>
           <button
             onClick={onSuivant}
-            className="bg-indigo-600 text-white font-semibold px-5 py-2 rounded-xl hover:bg-indigo-700 transition-colors"
+            className="bouton-principal-ludique font-titre font-bold px-5 py-2 rounded-2xl transition-transform"
           >
             {numero === total ? 'Voir le score' : 'Question suivante'}
           </button>
@@ -102,5 +113,25 @@ function Question({
     </div>
   )
 }
-
+ 
 export default Question
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
