@@ -1,6 +1,5 @@
-// Lien provisoire vers l'application. À REMPLACER par l'URL réelle une fois le déploiement fait
-// (voir POINTS_OUVERTS de la session : déploiement encore à faire).
-const LIEN_PARTAGE = 'https://quiz-culture-generale.exemple.com'
+// Lien réel vers l'application, déployée sur Vercel.
+const LIEN_PARTAGE = 'https://quiz-culture-generale-beta.vercel.app'
 
 // Construit le texte à copier dans le presse-papier, façon Wordle : une grille d'emojis
 // représentant les bonnes/mauvaises réponses dans l'ordre, sans jamais révéler le contenu
