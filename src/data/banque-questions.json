@@ -690,6 +690,22 @@
       "reponse_correcte": 2
     },
     {
+      "id": "q-20260718-047",
+      "question": "Antonio Vivaldi, compositeur des \"Quatre Saisons\", était originaire de quel pays ?",
+      "choix": [
+        "Autriche",
+        "Italie",
+        "Allemagne",
+        "France"
+      ],
+      "explication": "Antonio Vivaldi (1678-1741), auteur des Quatre Saisons, est un compositeur et violoniste italien né à Venise.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 1
+    },
+    {
       "id": "q-20260718-045",
       "question": "Le cassoulet est une spécialité emblématique de quelle région française ?",
       "choix": [
@@ -707,7 +723,7 @@
     },
     {
       "id": "q-20260718-046",
-      "question": "Comment appelle-t-on aussi les guillemets français « », en forme de doubles chevrons ?",
+      "question": "Quel autre nom donne-t-on aux guillemets français « », utilisés pour encadrer une citation ?",
       "choix": [
         "Les chevrons",
         "Les tildes",
@@ -722,28 +738,12 @@
       "reponse_correcte": 0
     },
     {
-      "id": "q-20260718-047",
-      "question": "Antonio Vivaldi, compositeur des \"Quatre Saisons\", était originaire de quel pays ?",
-      "choix": [
-        "Autriche",
-        "Italie",
-        "Allemagne",
-        "France"
-      ],
-      "explication": "Antonio Vivaldi (1678-1741), auteur des Quatre Saisons, est un compositeur et violoniste italien né à Venise.",
-      "source": "Wikipédia",
-      "niveau": "moyen",
-      "categorie": "Musique",
-      "date_quotidien": "2026-07-18",
-      "reponse_correcte": 1
-    },
-    {
       "id": "q-20260718-048",
       "question": "Quel indice, publié chaque mois par l'INSEE, mesure l'évolution des prix à la consommation en France ?",
       "choix": [
         "Le PIB",
         "Le taux d'usure",
-        "L'IPC (indice des prix à la consommation)",
+        "L'IPC",
         "L'indice CAC 40"
       ],
       "explication": "L'indice des prix à la consommation (IPC) est publié chaque mois par l'INSEE et mesure l'évolution moyenne des prix des biens et services consommés par les ménages.",
