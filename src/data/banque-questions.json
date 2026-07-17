@@ -800,7 +800,487 @@
       "categorie": "Art",
       "date_quotidien": "2026-07-18",
       "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260719-052",
+      "question": "Combien de points rapporte un essai au rugby à XV (hors transformation) ?",
+      "choix": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "explication": "Depuis 1992, un essai au rugby à XV vaut 5 points, auxquels s'ajoutent 2 points en cas de transformation réussie.",
+      "source": "World Rugby / Wikipédia",
+      "niveau": "facile",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260719-053",
+      "question": "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?",
+      "choix": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "explication": "Robert Downey Jr. incarne Tony Stark / Iron Man depuis le premier film Iron Man sorti en 2008.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260719-054",
+      "question": "Quelle entreprise a créé le personnage de jeu vidéo Mario ?",
+      "choix": [
+        "Sega",
+        "Capcom",
+        "Nintendo",
+        "Sony"
+      ],
+      "explication": "Mario est un personnage créé par Nintendo, apparu pour la première fois dans Donkey Kong en 1981.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Culture pop",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260719-055",
+      "question": "La choucroute, plat à base de chou fermenté, est une spécialité de quelle région française ?",
+      "choix": [
+        "Bretagne",
+        "Normandie",
+        "Provence",
+        "Alsace"
+      ],
+      "explication": "La choucroute est un plat traditionnel emblématique de la cuisine alsacienne.",
+      "source": "Larousse",
+      "niveau": "moyen",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260719-056",
+      "question": "Quel est le seul mammifère capable de voler activement (et non simplement de planer) ?",
+      "choix": [
+        "La chauve-souris",
+        "L'écureuil volant",
+        "Le loir",
+        "L'opossum planeur"
+      ],
+      "explication": "La chauve-souris est le seul mammifère capable d'un vol battu et actif ; les autres espèces citées ne font que planer.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260719-057",
+      "question": "En quelle année l'esclavage est-il définitivement aboli dans les colonies françaises ?",
+      "choix": [
+        "1794",
+        "1848",
+        "1802",
+        "1815"
+      ],
+      "explication": "Le décret du 27 avril 1848, porté par Victor Schœlcher, abolit définitivement l'esclavage dans les colonies françaises (une première abolition de 1794 avait été révoquée par Napoléon en 1802).",
+      "source": "Assemblée nationale / Herodote.net",
+      "niveau": "moyen",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260719-058",
+      "question": "Comment appelle-t-on une figure de style qui atténue une réalité désagréable par une expression plus douce, par exemple \"personne aux ressources modestes\" pour \"pauvre\" ?",
+      "choix": [
+        "La métaphore",
+        "L'antiphrase",
+        "L'euphémisme",
+        "L'hyperbole"
+      ],
+      "explication": "L'euphémisme consiste à adoucir l'expression d'une réalité jugée trop brutale ou déplaisante.",
+      "source": "Larousse",
+      "niveau": "difficile",
+      "categorie": "Langue française",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260719-059",
+      "question": "Quel gaz est principalement pointé du doigt dans le réchauffement climatique d'origine humaine ?",
+      "choix": [
+        "Le méthane",
+        "L'ozone",
+        "La vapeur d'eau",
+        "Le dioxyde de carbone (CO2)"
+      ],
+      "explication": "Le dioxyde de carbone (CO2), émis notamment par la combustion des énergies fossiles, est le principal gaz à effet de serre d'origine humaine en volume.",
+      "source": "GIEC",
+      "niveau": "difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260719-060",
+      "question": "Quel peintre italien de la Renaissance est l'auteur de la fresque \"L'École d'Athènes\", au Vatican ?",
+      "choix": [
+        "Raphaël",
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Le Titien"
+      ],
+      "explication": "Raphaël réalise L'École d'Athènes entre 1508 et 1512 dans la Chambre de la Signature du Vatican, sur commande du pape Jules II.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260719-061",
+      "question": "Quel est le plus petit État du monde par sa superficie ?",
+      "choix": [
+        "Monaco",
+        "Vatican",
+        "Saint-Marin",
+        "Liechtenstein"
+      ],
+      "explication": "La Cité du Vatican, avec environ 0,44 km², est le plus petit État souverain du monde, devant Monaco.",
+      "source": "ONU",
+      "niveau": "très difficile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-19",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260720-062",
+      "question": "Combien de pattes possède une araignée ?",
+      "choix": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "explication": "Les araignées sont des arachnides et possèdent 8 pattes, contrairement aux insectes qui n'en ont que 6.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260720-063",
+      "question": "En quelle année le réseau social Instagram est-il lancé ?",
+      "choix": [
+        "2008",
+        "2010",
+        "2012",
+        "2006"
+      ],
+      "explication": "Instagram est lancé le 6 octobre 2010 par Kevin Systrom et Mike Krieger, avant d'être racheté par Facebook en 2012.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Culture pop",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260720-064",
+      "question": "La tarte Tatin, née d'un accident de cuisson, est une spécialité à base de quel fruit ?",
+      "choix": [
+        "Poire",
+        "Abricot",
+        "Pomme",
+        "Prune"
+      ],
+      "explication": "La tarte Tatin est une tarte renversée aux pommes caramélisées, popularisée par les sœurs Tatin en Sologne.",
+      "source": "Larousse",
+      "niveau": "facile",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260720-065",
+      "question": "Dans quel pays le tennis moderne est-il codifié au XIXe siècle ?",
+      "choix": [
+        "France",
+        "Écosse",
+        "États-Unis",
+        "Angleterre"
+      ],
+      "explication": "Le tennis moderne (lawn tennis) est codifié en Angleterre en 1873 par le major Walter Clopton Wingfield.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260720-066",
+      "question": "Quel réalisateur français a réalisé \"Le Fabuleux Destin d'Amélie Poulain\" (2001) ?",
+      "choix": [
+        "Jean-Pierre Jeunet",
+        "Luc Besson",
+        "Michel Gondry",
+        "Cédric Klapisch"
+      ],
+      "explication": "Jean-Pierre Jeunet réalise Le Fabuleux Destin d'Amélie Poulain, sorti en 2001, avec Audrey Tautou.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260720-067",
+      "question": "Quel écrivain russe est l'auteur de \"Crime et Châtiment\" ?",
+      "choix": [
+        "Léon Tolstoï",
+        "Fiodor Dostoïevski",
+        "Anton Tchekhov",
+        "Ivan Tourgueniev"
+      ],
+      "explication": "Fiodor Dostoïevski publie Crime et Châtiment en 1866.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260720-068",
+      "question": "En quelle année le général de Gaulle démissionne-t-il de la présidence, après l'échec d'un référendum ?",
+      "choix": [
+        "1962",
+        "1968",
+        "1969",
+        "1974"
+      ],
+      "explication": "Suite à la défaite du \"oui\" au référendum du 27 avril 1969 sur la réforme du Sénat et la régionalisation, Charles de Gaulle annonce sa démission dans la nuit du 27 au 28 avril 1969.",
+      "source": "Fondation Charles de Gaulle",
+      "niveau": "difficile",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260720-069",
+      "question": "Quelle institution fixe les taux d'intérêt directeurs de la zone euro ?",
+      "choix": [
+        "Le FMI",
+        "La Banque de France",
+        "La Banque mondiale",
+        "La Banque centrale européenne (BCE)"
+      ],
+      "explication": "La Banque centrale européenne (BCE), basée à Francfort, fixe la politique monétaire et les taux directeurs de la zone euro.",
+      "source": "BCE",
+      "niveau": "difficile",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260720-070",
+      "question": "En quelle année l'ordonnance de Villers-Cotterêts impose-t-elle le français comme langue de l'administration ?",
+      "choix": [
+        "1539",
+        "1598",
+        "1454",
+        "1685"
+      ],
+      "explication": "L'ordonnance de Villers-Cotterêts, signée par François Ier en août 1539, impose le français dans les actes administratifs et judiciaires, à la place du latin.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Langue française",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260720-071",
+      "question": "Quelle dynastie succède aux Mérovingiens à la tête du royaume franc au VIIIe siècle ?",
+      "choix": [
+        "Capétiens",
+        "Carolingiens",
+        "Valois",
+        "Plantagenêts"
+      ],
+      "explication": "En 751, Pépin le Bref dépose le dernier roi mérovingien Childéric III et fonde la dynastie carolingienne.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-20",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260721-072",
+      "question": "Quelle plateforme de streaming a produit la série \"Stranger Things\" ?",
+      "choix": [
+        "Netflix",
+        "Amazon Prime Video",
+        "Disney+",
+        "HBO"
+      ],
+      "explication": "Stranger Things est une série originale Netflix, diffusée depuis 2016.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Culture pop",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260721-073",
+      "question": "Quel athlète jamaïcain détient le record du monde du 100 mètres ?",
+      "choix": [
+        "Justin Gatlin",
+        "Usain Bolt",
+        "Yohan Blake",
+        "Tyson Gay"
+      ],
+      "explication": "Usain Bolt a établi le record du monde du 100 m en 9,58 secondes lors des Championnats du monde 2009 à Berlin.",
+      "source": "World Athletics",
+      "niveau": "facile",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260721-074",
+      "question": "En quelle année a lieu la prise de la Bastille, marquant le début de la Révolution française ?",
+      "choix": [
+        "1799",
+        "1804",
+        "1789",
+        "1792"
+      ],
+      "explication": "La prise de la Bastille a lieu le 14 juillet 1789, événement fondateur de la Révolution française.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260721-075",
+      "question": "Quel studio d'animation a produit \"Toy Story\" (1995), premier long métrage entièrement réalisé en images de synthèse ?",
+      "choix": [
+        "DreamWorks",
+        "Illumination",
+        "Blue Sky Studios",
+        "Pixar"
+      ],
+      "explication": "Toy Story, sorti en 1995, est le premier long métrage d'animation entièrement en images de synthèse, produit par Pixar.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260721-076",
+      "question": "Quelle région française bénéficie d'une IGP (indication géographique protégée) pour sa moutarde depuis 2009 ?",
+      "choix": [
+        "Bourgogne",
+        "Alsace",
+        "Provence",
+        "Normandie"
+      ],
+      "explication": "La \"Moutarde de Bourgogne\" est protégée par une IGP depuis 2009, contrairement à l'appellation \"moutarde de Dijon\" qui n'est pas juridiquement protégée.",
+      "source": "Wikipédia / INAO",
+      "niveau": "moyen",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260721-077",
+      "question": "Combien de chromosomes possède une cellule humaine normale ?",
+      "choix": [
+        "44",
+        "46",
+        "48",
+        "42"
+      ],
+      "explication": "Une cellule humaine normale possède 46 chromosomes, organisés en 23 paires.",
+      "source": "Inserm",
+      "niveau": "moyen",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260721-078",
+      "question": "Quel est le plus grand animal ayant jamais existé sur Terre, plus grand qu'aucun dinosaure connu ?",
+      "choix": [
+        "Le cachalot",
+        "Le mégalodon",
+        "La baleine bleue",
+        "L'orque"
+      ],
+      "explication": "La baleine bleue, pouvant dépasser 30 mètres, est le plus grand animal ayant jamais existé, devançant tous les dinosaures connus.",
+      "source": "Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260721-079",
+      "question": "Quel peintre norvégien est l'auteur du tableau \"Le Cri\" (1893) ?",
+      "choix": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Vincent van Gogh",
+        "Edvard Munch"
+      ],
+      "explication": "Edvard Munch peint Le Cri en 1893, une des œuvres les plus emblématiques de l'expressionnisme.",
+      "source": "Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260721-080",
+      "question": "Quel compositeur baroque allemand est l'auteur des \"Concertos brandebourgeois\" ?",
+      "choix": [
+        "Jean-Sébastien Bach",
+        "Georg Friedrich Haendel",
+        "Antonio Vivaldi",
+        "Georg Philipp Telemann"
+      ],
+      "explication": "Jean-Sébastien Bach compose les six Concertos brandebourgeois entre 1708 et 1721, dédiés au margrave de Brandebourg.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260721-081",
+      "question": "Quel pays du monde couvre le plus grand nombre de fuseaux horaires, grâce à ses territoires d'outre-mer ?",
+      "choix": [
+        "Russie",
+        "France",
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "explication": "Grâce à ses territoires d'outre-mer répartis sur tous les océans, la France couvre à elle seule 12 à 13 fuseaux horaires, davantage que la Russie ou les États-Unis.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-21",
+      "reponse_correcte": 1
     }
   ],
-  "prochain_nnn": 52
+  "prochain_nnn": 82
 }

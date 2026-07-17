@@ -1,3 +1,6 @@
+
+
+App · JSX
 import { useReducer } from 'react'
 import Accueil from './components/Accueil'
 import FiltreAxe from './components/FiltreAxe'
@@ -12,14 +15,14 @@ import {
   construireQuizParCategorie,
   construireQuizParNiveau,
 } from './filtresLibre'
-
+ 
 const LABELS_NIVEAU = {
   facile: 'Facile',
   moyen: 'Moyen',
   difficile: 'Difficile',
   'très difficile': 'Très difficile',
 }
-
+ 
 function dateDuJourISO() {
   const maintenant = new Date()
   const annee = maintenant.getFullYear()
@@ -27,53 +30,57 @@ function dateDuJourISO() {
   const jour = String(maintenant.getDate()).padStart(2, '0')
   return `${annee}-${mois}-${jour}`
 }
-
+ 
 // Formate une date ISO (2026-07-14) en format affichage français (14/07/2026).
 function formatDateAffichage(dateIso) {
   const [annee, mois, jour] = dateIso.split('-')
   return `${jour}/${mois}/${annee}`
 }
-
+ 
 function trouverQuizDuJour(banque) {
   const aujourdHui = dateDuJourISO()
   const datesDisponibles = [...new Set(
     banque.questions.map((q) => q.date_quotidien).filter(Boolean)
   )].sort()
-
+ 
   let dateRetenue = datesDisponibles.includes(aujourdHui) ? aujourdHui : null
-
+ 
   if (!dateRetenue) {
     const datesPassees = datesDisponibles.filter((d) => d < aujourdHui)
     dateRetenue = datesPassees.length > 0 ? datesPassees[datesPassees.length - 1] : null
   }
-
+ 
   if (!dateRetenue) return null
-
+ 
   return {
     date: dateRetenue,
     questions: banque.questions.filter((q) => q.date_quotidien === dateRetenue)
   }
 }
-
+ 
+// Calculée une seule fois : sert à la fois à trouver le quiz du jour et à déterminer
+// quelles questions sont déjà "révélées" et donc éligibles au mode libre.
+const aujourdHui = dateDuJourISO()
+ 
 const quizDuJour = trouverQuizDuJour(banque)
 // Calculées une seule fois : la banque est statique (importée en JSON), pas besoin de recalculer à chaque rendu.
-const categoriesDisponibles = categoriesEligibles(banque)
-const niveauxDisponibles = niveauxEligibles(banque)
-
+const categoriesDisponibles = categoriesEligibles(banque, aujourdHui)
+const niveauxDisponibles = niveauxEligibles(banque, aujourdHui)
+ 
 function App() {
   const [state, dispatch] = useReducer(quizReducer, initialState)
-
+ 
   function demarrerQuizLibre(valeur) {
     const questions =
       state.axeLibre === 'categorie'
-        ? construireQuizParCategorie(banque, valeur)
-        : construireQuizParNiveau(banque, valeur)
-
+        ? construireQuizParCategorie(banque, valeur, aujourdHui)
+        : construireQuizParNiveau(banque, valeur, aujourdHui)
+ 
     const titre = state.axeLibre === 'categorie' ? valeur : LABELS_NIVEAU[valeur]
-
+ 
     dispatch({ type: 'DEMARRER_LIBRE', payload: { questions, titre } })
   }
-
+ 
   if (!quizDuJour) {
     return (
       <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
@@ -81,7 +88,7 @@ function App() {
       </div>
     )
   }
-
+ 
   return (
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
@@ -100,14 +107,14 @@ function App() {
             onModeLibre={() => dispatch({ type: 'OUVRIR_MODE_LIBRE' })}
           />
         )}
-
+ 
         {state.ecran === 'libre-axe' && (
           <FiltreAxe
             onChoisirAxe={(axe) => dispatch({ type: 'CHOISIR_AXE', payload: axe })}
             onRetour={() => dispatch({ type: 'RETOUR_ACCUEIL' })}
           />
         )}
-
+ 
         {state.ecran === 'libre-valeur' && (
           <FiltreValeur
             axe={state.axeLibre}
@@ -116,7 +123,7 @@ function App() {
             onRetour={() => dispatch({ type: 'OUVRIR_MODE_LIBRE' })}
           />
         )}
-
+ 
         {state.ecran === 'question' && (
           <Question
             question={state.questions[state.indexCourant]}
@@ -129,7 +136,7 @@ function App() {
             onQuitter={() => dispatch({ type: 'RETOUR_ACCUEIL' })}
           />
         )}
-
+ 
         {state.ecran === 'score' && (
           <Score
             score={state.score}
@@ -143,5 +150,25 @@ function App() {
     </div>
   )
 }
-
+ 
 export default App
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
