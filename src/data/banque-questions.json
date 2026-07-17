@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "prochain_nnn": 42,
   "questions": [
     {
       "id": "q-20260712-001",
@@ -607,21 +606,21 @@
       "source": "Gouvernement néerlandais",
       "niveau": "difficile",
       "categorie": "Géographie",
-      "date_quotidien": null,
+      "date_quotidien": "2026-07-15",
       "reponse_correcte": 1
     },
     {
       "id": "q-20260714-039",
-      "question": "Quel ministre de Louis XIV occupe le poste de contrôleur général des finances de 1665 à 1683 ?",
+      "question": "Quel ministre de Louis XIV, contrôleur général des finances de 1665 à 1683, a donné son nom au \"colbertisme\" ?",
       "choix": [
         "Jean-Baptiste Colbert",
         "Nicolas Fouquet",
         "Cardinal Mazarin",
         "Duc de Sully"
       ],
-      "explication": "Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV de 1665 à 1683, mène une politique interventionniste et protectionniste restée connue sous le nom de colbertisme.",
+      "explication": "Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV de 1665 à 1683, donne son nom au colbertisme.",
       "source": "Château de Versailles",
-      "niveau": "difficile",
+      "niveau": "très difficile",
       "categorie": "Histoire",
       "date_quotidien": "2026-07-15",
       "reponse_correcte": 0
@@ -643,20 +642,165 @@
       "reponse_correcte": 1
     },
     {
-      "id": "q-20260714-041",
-      "question": "Quel pseudonyme permet à l'écrivain Romain Gary de devenir le seul auteur à remporter deux fois le prix Goncourt, un exploit normalement impossible ?",
+      "id": "q-20260718-042",
+      "question": "Combien de joueurs une équipe de basketball aligne-t-elle sur le terrain ?",
       "choix": [
-        "Boris Vian",
-        "Émile Ajar",
-        "Romain Kacew",
-        "Paul Pavlowitch"
+        "5",
+        "6",
+        "4",
+        "7"
       ],
-      "reponse_correcte": 1,
-      "explication": "Sous le pseudonyme d'Émile Ajar, Romain Gary obtient un second prix Goncourt en 1975 pour La Vie devant soi, alors que le règlement du prix interdit officiellement toute double distinction ; la supercherie n'est révélée qu'après sa mort en 1980.",
-      "source": "RTBF / Wikipédia",
+      "explication": "Une équipe de basketball aligne 5 joueurs simultanément sur le terrain, une règle commune à la FIBA et à la NBA.",
+      "source": "FIBA",
+      "niveau": "facile",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260718-043",
+      "question": "Qui a réalisé le film \"Jurassic Park\", sorti en 1993 ?",
+      "choix": [
+        "George Lucas",
+        "Steven Spielberg",
+        "James Cameron",
+        "Robert Zemeckis"
+      ],
+      "explication": "Jurassic Park, sorti en 1993, est réalisé par Steven Spielberg, d'après le roman de Michael Crichton.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260718-044",
+      "question": "Quel est l'animal terrestre le plus rapide ?",
+      "choix": [
+        "Le lion",
+        "La gazelle",
+        "Le guépard",
+        "Le cheval"
+      ],
+      "explication": "Le guépard est considéré comme l'animal terrestre le plus rapide, capable d'atteindre une vitesse de pointe d'environ 110 à 120 km/h sur de courtes distances.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260718-045",
+      "question": "Le cassoulet est une spécialité emblématique de quelle région française ?",
+      "choix": [
+        "Bretagne",
+        "Normandie",
+        "Provence",
+        "Languedoc"
+      ],
+      "explication": "Le cassoulet est une spécialité régionale du Languedoc, à base de haricots secs et de viande, même si plusieurs villes (Castelnaudary, Toulouse, Carcassonne) se disputent la paternité exacte de la recette.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260718-046",
+      "question": "Comment appelle-t-on aussi les guillemets français « », en forme de doubles chevrons ?",
+      "choix": [
+        "Les chevrons",
+        "Les tildes",
+        "Les accolades",
+        "Les astérisques"
+      ],
+      "explication": "Les guillemets français « » sont aussi appelés chevrons, par opposition aux guillemets anglais plus petits.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Langue française",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260718-047",
+      "question": "Antonio Vivaldi, compositeur des \"Quatre Saisons\", était originaire de quel pays ?",
+      "choix": [
+        "Autriche",
+        "Italie",
+        "Allemagne",
+        "France"
+      ],
+      "explication": "Antonio Vivaldi (1678-1741), auteur des Quatre Saisons, est un compositeur et violoniste italien né à Venise.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260718-048",
+      "question": "Quel indice, publié chaque mois par l'INSEE, mesure l'évolution des prix à la consommation en France ?",
+      "choix": [
+        "Le PIB",
+        "Le taux d'usure",
+        "L'IPC (indice des prix à la consommation)",
+        "L'indice CAC 40"
+      ],
+      "explication": "L'indice des prix à la consommation (IPC) est publié chaque mois par l'INSEE et mesure l'évolution moyenne des prix des biens et services consommés par les ménages.",
+      "source": "INSEE",
+      "niveau": "difficile",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260718-049",
+      "question": "Quel est le plus long tunnel routier de France ?",
+      "choix": [
+        "Le tunnel du Mont-Blanc",
+        "Le tunnel de Toulon",
+        "Le tunnel Maurice-Lemaire",
+        "Le tunnel du Fréjus"
+      ],
+      "explication": "Le tunnel du Fréjus, long d'environ 12,8 à 12,9 km entre la Savoie et le Piémont italien, est le plus long tunnel routier de France, devant le tunnel du Mont-Blanc (11,6 km).",
+      "source": "CNEWS / Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260718-050",
+      "question": "Combien de personnalités différentes ont occupé le poste de Premier ministre durant les deux mandats de François Mitterrand (1981-1995) ?",
+      "choix": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "explication": "Sept personnalités différentes ont occupé le poste de Premier ministre durant les deux mandats de François Mitterrand : Pierre Mauroy, Laurent Fabius, Jacques Chirac, Michel Rocard, Édith Cresson, Pierre Bérégovoy et Édouard Balladur.",
+      "source": "Wikipédia",
       "niveau": "très difficile",
-      "categorie": "Littérature",
-      "date_quotidien": "2026-07-15"
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260718-051",
+      "question": "Quel peintre est l'auteur du triptyque \"Le Jardin des délices\", conservé au musée du Prado ?",
+      "choix": [
+        "Pieter Brueghel l'Ancien",
+        "Jérôme Bosch",
+        "Jan van Eyck",
+        "Hans Memling"
+      ],
+      "explication": "Le Jardin des délices est un triptyque peint par Jérôme Bosch, conservé au musée du Prado à Madrid.",
+      "source": "Musée du Prado",
+      "niveau": "très difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-18",
+      "reponse_correcte": 1
     }
-  ]
+  ],
+  "prochain_nnn": 52
 }
