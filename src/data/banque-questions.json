@@ -1,0 +1,662 @@
+{
+  "version": 2,
+  "prochain_nnn": 42,
+  "questions": [
+    {
+      "id": "q-20260712-001",
+      "question": "Quel roi de France a été guillotiné le 21 janvier 1793 ?",
+      "choix": [
+        "Louis XVI",
+        "Louis XV",
+        "Charles X",
+        "Louis XVIII"
+      ],
+      "explication": "Louis XVI a été guillotiné place de la Révolution (actuelle place de la Concorde) le 21 janvier 1793, après sa condamnation par la Convention.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260712-002",
+      "question": "Quel est le plus long fleuve de France ?",
+      "choix": [
+        "La Seine",
+        "Le Rhône",
+        "La Loire",
+        "La Garonne"
+      ],
+      "explication": "La Loire s'étend sur environ 1 006 à 1 013 km selon les sources, loin devant la Seine (775 km) et le Rhône (environ 545 km sur le territoire français).",
+      "source": "Sandre / Larousse",
+      "niveau": "facile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260712-003",
+      "question": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+      "choix": [
+        "9",
+        "11",
+        "7",
+        "15"
+      ],
+      "explication": "Selon la loi 3 du jeu établie par l'IFAB et appliquée par la FIFA, une équipe compte au maximum 11 joueurs sur le terrain, dont un gardien.",
+      "source": "IFAB",
+      "niveau": "facile",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260712-004",
+      "question": "En quelle année Victor Hugo publie-t-il \"Les Misérables\" ?",
+      "choix": [
+        "1850",
+        "1857",
+        "1870",
+        "1862"
+      ],
+      "explication": "Les deux premiers tomes des Misérables paraissent en France le 3 avril 1862, après un projet mûri par Victor Hugo pendant près de trente ans.",
+      "source": "Wikipédia / Herodote.net",
+      "niveau": "moyen",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260712-005",
+      "question": "Quel organe produit l'insuline dans le corps humain ?",
+      "choix": [
+        "Le pancréas",
+        "Le foie",
+        "La rate",
+        "La thyroïde"
+      ],
+      "explication": "L'insuline est sécrétée par les cellules bêta des îlots de Langerhans, situés dans le pancréas.",
+      "source": "Inserm",
+      "niveau": "moyen",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260712-006",
+      "question": "Depuis la réforme constitutionnelle de 2008, combien de mandats présidentiels consécutifs un président français peut-il exercer au maximum ?",
+      "choix": [
+        "1",
+        "3",
+        "2",
+        "Illimité"
+      ],
+      "explication": "La révision constitutionnelle du 23 juillet 2008 a limité à deux le nombre de mandats présidentiels consécutifs (article 6 de la Constitution).",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260712-007",
+      "question": "Quel peintre est l'auteur d'\"Un dimanche après-midi à l'Île de la Grande Jatte\", œuvre emblématique du pointillisme ?",
+      "choix": [
+        "Paul Signac",
+        "Georges Seurat",
+        "Camille Pissarro",
+        "Paul Cézanne"
+      ],
+      "explication": "Georges Seurat peint cette toile entre 1884 et 1886 et y développe sa technique du divisionnisme, que le critique Félix Fénéon rebaptisera pointillisme.",
+      "source": "Larousse",
+      "niveau": "difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260712-008",
+      "question": "Quel économiste français a reçu le prix Nobel d'économie en 1988 pour ses travaux sur la théorie des marchés ?",
+      "choix": [
+        "Gérard Debreu",
+        "Jean Tirole",
+        "Milton Friedman",
+        "Maurice Allais"
+      ],
+      "explication": "Maurice Allais est resté le seul lauréat français du prix Nobel d'économie, récompensé en 1988 pour ses contributions à la théorie des marchés et à l'utilisation efficace des ressources.",
+      "source": "Nobelprize.org",
+      "niveau": "difficile",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260712-009",
+      "question": "Quel traité a mis fin à la guerre de Trente Ans en 1648 ?",
+      "choix": [
+        "Les traités de Westphalie",
+        "Le traité d'Utrecht",
+        "Le traité de Nimègue",
+        "La paix des Pyrénées"
+      ],
+      "explication": "Les traités de Westphalie, signés le 24 octobre 1648 à Münster et Osnabrück, mettent fin à la guerre de Trente Ans et redessinent l'ordre européen.",
+      "source": "Larousse",
+      "niveau": "très difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260712-010",
+      "question": "Quel physicien français a découvert la radioactivité naturelle de l'uranium en 1896 ?",
+      "choix": [
+        "Pierre Curie",
+        "Marie Curie",
+        "Henri Becquerel",
+        "Wilhelm Röntgen"
+      ],
+      "explication": "Henri Becquerel découvre en février 1896 que des sels d'uranium impressionnent une plaque photographique sans exposition à la lumière, mettant en évidence la radioactivité.",
+      "source": "Wikipédia / CEA",
+      "niveau": "très difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-12",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-011",
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "choix": [
+        "Madrid",
+        "Barcelone",
+        "Lisbonne",
+        "Séville"
+      ],
+      "explication": "Madrid est la capitale de l'Espagne depuis 1561, sous le règne de Philippe II.",
+      "source": "Larousse",
+      "niveau": "facile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-012",
+      "question": "Qui a peint \"La Joconde\" ?",
+      "choix": [
+        "Michel-Ange",
+        "Raphaël",
+        "Léonard de Vinci",
+        "Botticelli"
+      ],
+      "explication": "Léonard de Vinci peint la Joconde au tout début du XVIe siècle ; le tableau est aujourd'hui conservé au Louvre.",
+      "source": "Musée du Louvre",
+      "niveau": "facile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-013",
+      "question": "Qui est l'auteur du \"Petit Prince\" ?",
+      "choix": [
+        "Albert Camus",
+        "Antoine de Saint-Exupéry",
+        "Jean Giono",
+        "André Malraux"
+      ],
+      "explication": "Antoine de Saint-Exupéry publie Le Petit Prince en 1943.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-014",
+      "question": "En quelle année le mur de Berlin est-il tombé ?",
+      "choix": [
+        "1987",
+        "1991",
+        "1989",
+        "1990"
+      ],
+      "explication": "Le mur de Berlin est ouvert dans la nuit du 9 novembre 1989, marquant la fin de la séparation entre Berlin-Est et Berlin-Ouest.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-015",
+      "question": "Quel économiste écossais est à l'origine du concept de la « main invisible » du marché ?",
+      "choix": [
+        "David Ricardo",
+        "Adam Smith",
+        "John Stuart Mill",
+        "Thomas Malthus"
+      ],
+      "explication": "Adam Smith développe la métaphore de la « main invisible » pour décrire comment la recherche de l'intérêt individuel peut contribuer à l'équilibre économique général.",
+      "source": "economie.gouv.fr",
+      "niveau": "moyen",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-016",
+      "question": "Quel gaz représente environ 78% de l'atmosphère terrestre ?",
+      "choix": [
+        "L'oxygène",
+        "Le dioxyde de carbone",
+        "L'azote",
+        "L'argon"
+      ],
+      "explication": "L'azote (N2) représente environ 78% de l'atmosphère, contre environ 21% pour l'oxygène.",
+      "source": "Météo-France",
+      "niveau": "moyen",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-017",
+      "question": "Quel traité, signé en 1713, met fin à la guerre de Succession d'Espagne ?",
+      "choix": [
+        "Le traité d'Utrecht",
+        "Le traité de Westphalie",
+        "Le traité de Ryswick",
+        "Le traité de Paris"
+      ],
+      "explication": "Les traités d'Utrecht, signés en 1713, mettent fin à la guerre de Succession d'Espagne.",
+      "source": "Larousse",
+      "niveau": "difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-018",
+      "question": "Quel physicien a formulé le principe d'incertitude en mécanique quantique ?",
+      "choix": [
+        "Niels Bohr",
+        "Werner Heisenberg",
+        "Erwin Schrödinger",
+        "Max Planck"
+      ],
+      "explication": "Werner Heisenberg formule en 1927 le principe d'incertitude, pilier de la mécanique quantique.",
+      "source": "Encyclopædia Universalis",
+      "niveau": "difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-019",
+      "question": "Quel traité, signé en 1697, met fin à la guerre de la Ligue d'Augsbourg ?",
+      "choix": [
+        "Le traité de 1715",
+        "Le traité de 1701",
+        "Le traité de 1678",
+        "Le traité de Ryswick"
+      ],
+      "explication": "Les traités de Ryswick, signés en 1697, mettent fin à la guerre de la Ligue d'Augsbourg entre la France de Louis XIV et la coalition européenne.",
+      "source": "Larousse",
+      "niveau": "très difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260714-020",
+      "question": "Quel physicien a formulé en 1928 une équation relativiste de l'électron prédisant l'existence de l'antimatière ?",
+      "choix": [
+        "Paul Dirac",
+        "Enrico Fermi",
+        "Ernest Rutherford",
+        "James Chadwick"
+      ],
+      "explication": "L'équation de Dirac, formulée en 1928, prédit l'existence du positron, confirmée expérimentalement en 1932.",
+      "source": "CERN",
+      "niveau": "très difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-13",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-021",
+      "question": "Combien d'os compte le squelette d'un adulte humain ?",
+      "choix": [
+        "186",
+        "206",
+        "226",
+        "246"
+      ],
+      "explication": "Le squelette d'un adulte humain compte 206 os.",
+      "source": "Inserm",
+      "niveau": "facile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-022",
+      "question": "De quel pays est originaire le groupe ABBA ?",
+      "choix": [
+        "Norvège",
+        "Danemark",
+        "Suède",
+        "Finlande"
+      ],
+      "explication": "Le groupe ABBA est originaire de Suède, formé à Stockholm en 1972.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-023",
+      "question": "Quel est l'ingrédient principal du guacamole ?",
+      "choix": [
+        "Tomate",
+        "Avocat",
+        "Poivron",
+        "Oignon"
+      ],
+      "explication": "L'avocat est l'ingrédient principal du guacamole, préparation d'origine mexicaine.",
+      "source": "Larousse",
+      "niveau": "facile",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-024",
+      "question": "Quel pays a remporté la première Coupe du monde de football, en 1930 ?",
+      "choix": [
+        "Argentine",
+        "Brésil",
+        "Italie",
+        "Uruguay"
+      ],
+      "explication": "L'Uruguay remporte la première Coupe du monde de football, organisée et gagnée à domicile en 1930.",
+      "source": "FIFA",
+      "niveau": "moyen",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260714-025",
+      "question": "Quel réalisateur reçoit la Palme d'or au Festival de Cannes 1994 pour \"Pulp Fiction\" ?",
+      "choix": [
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "David Lynch"
+      ],
+      "explication": "Quentin Tarantino reçoit la Palme d'or au Festival de Cannes 1994 pour Pulp Fiction.",
+      "source": "Festival de Cannes",
+      "niveau": "moyen",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-026",
+      "question": "Quel écrivain français reçoit le prix Nobel de littérature en 2008 ?",
+      "choix": [
+        "Patrick Modiano",
+        "Annie Ernaux",
+        "Albert Camus",
+        "Jean-Marie Gustave Le Clézio"
+      ],
+      "explication": "J.M.G. Le Clézio reçoit le prix Nobel de littérature en 2008.",
+      "source": "Nobelprize.org",
+      "niveau": "moyen",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260714-027",
+      "question": "Quel peintre est le cofondateur du mouvement cubiste aux côtés de Pablo Picasso ?",
+      "choix": [
+        "Henri Matisse",
+        "André Derain",
+        "Georges Braque",
+        "Fernand Léger"
+      ],
+      "explication": "Georges Braque développe le cubisme avec Pablo Picasso, à travers leurs recherches communes sur la décomposition des formes en volumes géométriques.",
+      "source": "Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-028",
+      "question": "En quelle année Mozart meurt-il en laissant son \"Requiem\" inachevé ?",
+      "choix": [
+        "1789",
+        "1791",
+        "1793",
+        "1795"
+      ],
+      "explication": "Mozart meurt le 5 décembre 1791 en laissant son Requiem inachevé ; il sera complété par son élève Süssmayr.",
+      "source": "Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-029",
+      "question": "Quel est le véritable nom de l'écrivaine connue sous le pseudonyme George Sand ?",
+      "choix": [
+        "Amantine Lucile Aurore Dupin",
+        "Louise Colet",
+        "Delphine de Girardin",
+        "Marie d'Agoult"
+      ],
+      "explication": "George Sand est le pseudonyme d'Amantine Lucile Aurore Dupin, qu'elle adopte pour publier plus librement au XIXe siècle.",
+      "source": "Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-030",
+      "question": "Quel sculpteur est l'auteur du \"Penseur\", conçu à l'origine pour orner le tympan de \"La Porte de l'Enfer\" ?",
+      "choix": [
+        "Auguste Rodin",
+        "Camille Claudel",
+        "Antoine Bourdelle",
+        "Aristide Maillol"
+      ],
+      "explication": "Auguste Rodin sculpte Le Penseur à l'origine pour orner le tympan de La Porte de l'Enfer.",
+      "source": "Musée Rodin",
+      "niveau": "très difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-14",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-031",
+      "question": "Quelle est la devise de la République française ?",
+      "choix": [
+        "Unité, Travail, Progrès",
+        "Liberté, Égalité, Fraternité",
+        "Paix, Justice, Liberté",
+        "Ordre et Progrès"
+      ],
+      "explication": "La devise de la République française, \"Liberté, Égalité, Fraternité\", est inscrite dans la Constitution.",
+      "source": "Vie publique",
+      "niveau": "facile",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-032",
+      "question": "Combien de lettres compte l'alphabet français ?",
+      "choix": [
+        "24",
+        "25",
+        "27",
+        "26"
+      ],
+      "explication": "L'alphabet français compte 26 lettres, comme l'alphabet latin de base.",
+      "source": "Larousse",
+      "niveau": "facile",
+      "categorie": "Langue française",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260714-033",
+      "question": "Quel réalisateur a créé la saga \"Star Wars\" ?",
+      "choix": [
+        "George Lucas",
+        "Steven Spielberg",
+        "James Cameron",
+        "Ridley Scott"
+      ],
+      "explication": "George Lucas crée et réalise le premier film de la saga Star Wars, sorti en 1977.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-034",
+      "question": "À quel mouvement artistique Salvador Dalí est-il associé ?",
+      "choix": [
+        "Cubisme",
+        "Fauvisme",
+        "Surréalisme",
+        "Impressionnisme"
+      ],
+      "explication": "Salvador Dalí est l'une des figures majeures du mouvement surréaliste.",
+      "source": "Centre Pompidou",
+      "niveau": "moyen",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-035",
+      "question": "En quelle année les femmes obtiennent-elles le droit de vote en France ?",
+      "choix": [
+        "1944",
+        "1936",
+        "1958",
+        "1950"
+      ],
+      "explication": "Les femmes obtiennent le droit de vote en France par une ordonnance du 21 avril 1944.",
+      "source": "Vie publique",
+      "niveau": "moyen",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-036",
+      "question": "Combien de temps dure environ la gestation de l'éléphant d'Afrique ?",
+      "choix": [
+        "Environ 12 mois",
+        "Environ 16 mois",
+        "Environ 28 mois",
+        "Environ 22 mois"
+      ],
+      "explication": "La gestation de l'éléphant d'Afrique dure de 20 à 22 mois, la plus longue parmi les mammifères terrestres.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260714-037",
+      "question": "En quelle année John Maynard Keynes publie-t-il \"La Théorie générale de l'emploi, de l'intérêt et de la monnaie\" ?",
+      "choix": [
+        "1929",
+        "1919",
+        "1936",
+        "1944"
+      ],
+      "explication": "Keynes publie La Théorie générale de l'emploi, de l'intérêt et de la monnaie en 1936, fondant le keynésianisme.",
+      "source": "Encyclopædia Universalis",
+      "niveau": "difficile",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260714-038",
+      "question": "Bien qu'Amsterdam soit la capitale constitutionnelle des Pays-Bas, quelle ville abrite le gouvernement et le Parlement ?",
+      "choix": [
+        "Amsterdam",
+        "La Haye",
+        "Rotterdam",
+        "Utrecht"
+      ],
+      "explication": "Le gouvernement et le Parlement néerlandais siègent à La Haye, alors qu'Amsterdam reste la capitale constitutionnelle inscrite dans la Constitution.",
+      "source": "Gouvernement néerlandais",
+      "niveau": "difficile",
+      "categorie": "Géographie",
+      "date_quotidien": null,
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-039",
+      "question": "Quel ministre de Louis XIV occupe le poste de contrôleur général des finances de 1665 à 1683 ?",
+      "choix": [
+        "Jean-Baptiste Colbert",
+        "Nicolas Fouquet",
+        "Cardinal Mazarin",
+        "Duc de Sully"
+      ],
+      "explication": "Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV de 1665 à 1683, mène une politique interventionniste et protectionniste restée connue sous le nom de colbertisme.",
+      "source": "Château de Versailles",
+      "niveau": "difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260714-040",
+      "question": "Quel compositeur russe est l'auteur du ballet « Le Sacre du Printemps », dont la création provoqua un scandale retentissant à Paris ?",
+      "choix": [
+        "Sergueï Prokofiev",
+        "Igor Stravinsky",
+        "Dmitri Chostakovitch",
+        "Modest Moussorgski"
+      ],
+      "explication": "La création du Sacre du Printemps d'Igor Stravinsky, chorégraphié par Vaslav Nijinski, déclenche un scandale mémorable au Théâtre des Champs-Élysées le 29 mai 1913.",
+      "source": "RTBF / Philharmonie de Paris",
+      "niveau": "très difficile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-15",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260714-041",
+      "question": "Quel pseudonyme permet à l'écrivain Romain Gary de devenir le seul auteur à remporter deux fois le prix Goncourt, un exploit normalement impossible ?",
+      "choix": [
+        "Boris Vian",
+        "Émile Ajar",
+        "Romain Kacew",
+        "Paul Pavlowitch"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Sous le pseudonyme d'Émile Ajar, Romain Gary obtient un second prix Goncourt en 1975 pour La Vie devant soi, alors que le règlement du prix interdit officiellement toute double distinction ; la supercherie n'est révélée qu'après sa mort en 1980.",
+      "source": "RTBF / Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-15"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+import { useReducer } from 'react'
+import Accueil from './components/Accueil'
+import Question from './components/Question'
+import Score from './components/Score'
+import { quizReducer, initialState } from './reducer'
+import banque from './data/banque-questions.json'
+
+function dateDuJourISO() {
+  const maintenant = new Date()
+  const annee = maintenant.getFullYear()
+  const mois = String(maintenant.getMonth() + 1).padStart(2, '0')
+  const jour = String(maintenant.getDate()).padStart(2, '0')
+  return `${annee}-${mois}-${jour}`
+}
+
+function trouverQuizDuJour(banque) {
+  const aujourdHui = dateDuJourISO()
+  const datesDisponibles = [...new Set(banque.questions.map((q) => q.date_quotidien))].sort()
+
+  let dateRetenue = datesDisponibles.includes(aujourdHui) ? aujourdHui : null
+
+  if (!dateRetenue) {
+    const datesPassees = datesDisponibles.filter((d) => d < aujourdHui)
+    dateRetenue = datesPassees.length > 0 ? datesPassees[datesPassees.length - 1] : null
+  }
+
+  if (!dateRetenue) return null
+
+  return {
+    date: dateRetenue,
+    questions: banque.questions.filter((q) => q.date_quotidien === dateRetenue)
+  }
+}
+
+const quizDuJour = trouverQuizDuJour(banque)
+
+function App() {
+  const [state, dispatch] = useReducer(quizReducer, initialState)
+
+  if (!quizDuJour) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
+        <p className="text-slate-500">Aucun quiz disponible pour le moment.</p>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
+      <div className="w-full max-w-md">
+        {state.ecran === 'accueil' && (
+          <Accueil
+            quiz={quizDuJour}
+            onDemarrer={() => dispatch({ type: 'DEMARRER', payload: quizDuJour.questions })}
+          />
+        )}
+
+        {state.ecran === 'question' && (
+          <Question
+            question={state.questions[state.indexCourant]}
+            numero={state.indexCourant + 1}
+            total={state.questions.length}
+            reponseSelectionnee={state.reponseSelectionnee}
+            onRepondre={(indexChoisi) => dispatch({ type: 'REPONDRE', payload: { indexChoisi } })}
+            onSuivant={() => dispatch({ type: 'SUIVANT' })}
+          />
+        )}
+
+        {state.ecran === 'score' && (
+          <Score
+            score={state.score}
+            total={state.questions.length}
+            historique={state.historique}
+            onRejouer={() => dispatch({ type: 'REJOUER' })}
+          />
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default App
