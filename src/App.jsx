@@ -1,4 +1,4 @@
-import { useReducer } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import Accueil from './components/Accueil'
 import FiltreAxe from './components/FiltreAxe'
 import FiltreValeur from './components/FiltreValeur'
@@ -12,6 +12,7 @@ import {
   construireQuizParCategorie,
   construireQuizParNiveau,
 } from './filtresLibre'
+import { resultatDuJour, streakActuelle, enregistrerResultatDuJour } from './quotidien'
 
 const LABELS_NIVEAU = {
   facile: 'Facile',
@@ -56,7 +57,8 @@ function trouverQuizDuJour(banque) {
 }
 
 // Calculée une seule fois : sert à la fois à trouver le quiz du jour et à déterminer
-// quelles questions sont déjà "révélées" et donc éligibles au mode libre.
+// quelles questions sont déjà "révélées" et donc éligibles au mode libre, ainsi qu'au
+// verrou "un essai par jour" (basé sur la date calendaire réelle, pas sur la date du contenu affiché).
 const aujourdHui = dateDuJourISO()
 
 const quizDuJour = trouverQuizDuJour(banque)
@@ -66,6 +68,23 @@ const niveauxDisponibles = niveauxEligibles(banque, aujourdHui)
 
 function App() {
   const [state, dispatch] = useReducer(quizReducer, initialState)
+  const [resultatQuotidien, setResultatQuotidien] = useState(() => resultatDuJour(aujourdHui))
+  const [streak, setStreak] = useState(() => streakActuelle())
+
+  // Enregistre le résultat une seule fois, au moment précis où le quotidien (pas le mode libre)
+  // se termine et affiche l'écran de score.
+  useEffect(() => {
+    if (state.ecran === 'score' && state.modeQuiz === 'quotidien') {
+      const progression = enregistrerResultatDuJour(
+        aujourdHui,
+        state.score,
+        state.questions.length,
+        state.historique
+      )
+      setResultatQuotidien(progression.resultats[aujourdHui])
+      setStreak(progression.streakActuelle)
+    }
+  }, [state.ecran, state.modeQuiz])
 
   function demarrerQuizLibre(valeur) {
     const questions =
@@ -92,6 +111,8 @@ function App() {
         {state.ecran === 'accueil' && (
           <Accueil
             quiz={quizDuJour}
+            resultatQuotidien={resultatQuotidien}
+            streak={streak}
             onDemarrer={() =>
               dispatch({
                 type: 'DEMARRER',
@@ -140,6 +161,7 @@ function App() {
             total={state.questions.length}
             historique={state.historique}
             titreQuiz={state.titreQuiz}
+            streak={state.modeQuiz === 'quotidien' ? streak : null}
             onRejouer={() => dispatch({ type: 'REJOUER' })}
           />
         )}

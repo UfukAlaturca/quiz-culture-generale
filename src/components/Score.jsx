@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { construireTextePartage } from '../partage'
 
-function Score({ score, total, historique, titreQuiz, onRejouer }) {
+function Score({ score, total, historique, titreQuiz, streak, onRejouer }) {
   const [etatBouton, setEtatBouton] = useState('inactif') // 'inactif' | 'succes' | 'echec'
 
   const partageNatifDisponible = typeof navigator !== 'undefined' && typeof navigator.share === 'function'
@@ -44,9 +44,16 @@ function Score({ score, total, historique, titreQuiz, onRejouer }) {
       {titreQuiz && (
         <p className="text-center text-sm text-texte-doux dark:text-texte-doux-nuit mb-1">{titreQuiz}</p>
       )}
-      <p className="text-center font-titre font-bold text-badge-texte dark:text-badge-texte-nuit mb-6">
+      <p className="text-center font-titre font-bold text-badge-texte dark:text-badge-texte-nuit mb-1">
         {score} / {total} bonnes réponses
       </p>
+      {streak > 1 ? (
+        <p className="text-center text-sm font-bold text-texte dark:text-texte-nuit mb-6">
+          🔥 {streak} jours de suite
+        </p>
+      ) : (
+        <div className="mb-6" />
+      )}
 
       <div className="space-y-3 mb-6">
         {historique.map((entree, index) => (
