@@ -1,0 +1,15 @@
+{
+  "name": "Quiz Culture Générale",
+  "short_name": "Quiz Culture",
+  "description": "Quiz de culture générale quotidien façon Wordle, avec mode libre par catégorie ou niveau.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF4E0",
+  "theme_color": "#F4A93B",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
