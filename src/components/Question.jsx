@@ -1,10 +1,7 @@
-
-
-Question · JSX
 import { useState } from 'react'
- 
+
 const LETTRES = ['A', 'B', 'C', 'D']
- 
+
 function Question({
   question,
   numero,
@@ -17,7 +14,7 @@ function Question({
 }) {
   const [confirmationQuitter, setConfirmationQuitter] = useState(false)
   const aRepondu = reponseSelectionnee !== null
- 
+
   function couleurBouton(index) {
     if (!aRepondu) {
       return 'bg-carte dark:bg-carte-nuit hover:bg-badge-fond/20 dark:hover:bg-badge-fond-nuit/20 border-badge-fond dark:border-badge-fond-nuit text-texte dark:text-texte-nuit'
@@ -30,7 +27,7 @@ function Question({
     }
     return 'bg-carte dark:bg-carte-nuit border-badge-fond dark:border-badge-fond-nuit text-texte-doux dark:text-texte-doux-nuit'
   }
- 
+
   if (confirmationQuitter) {
     return (
       <div className="carte-ludique p-6 text-center">
@@ -57,7 +54,7 @@ function Question({
       </div>
     )
   }
- 
+
   return (
     <div className="carte-ludique p-6">
       <div className="w-full bg-badge-fond dark:bg-badge-fond-nuit rounded-full h-2 mb-4">
@@ -66,7 +63,7 @@ function Question({
           style={{ width: `${(numero / total) * 100}%` }}
         />
       </div>
- 
+
       <div className="flex justify-between items-center mb-2">
         <p className="text-sm text-texte-doux dark:text-texte-doux-nuit font-semibold">
           Question {numero} / {total}
@@ -80,11 +77,11 @@ function Question({
           </button>
         )}
       </div>
- 
+
       <h2 className="font-titre font-bold text-lg text-texte dark:text-texte-nuit mb-5">
         {question.question}
       </h2>
- 
+
       <div className="space-y-3">
         {question.choix.map((choix, index) => (
           <button
@@ -98,7 +95,7 @@ function Question({
           </button>
         ))}
       </div>
- 
+
       {aRepondu && (
         <div className="mt-5 p-4 rounded-2xl bg-badge-fond/40 dark:bg-badge-fond-nuit/40 text-sm text-texte dark:text-texte-nuit">
           <p className="mb-3">{question.explication}</p>
@@ -113,25 +110,5 @@ function Question({
     </div>
   )
 }
- 
+
 export default Question
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
