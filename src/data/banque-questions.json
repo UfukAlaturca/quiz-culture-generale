@@ -611,16 +611,16 @@
     },
     {
       "id": "q-20260714-039",
-      "question": "Quel ministre de Louis XIV, contrôleur général des finances de 1665 à 1683, a donné son nom au \"colbertisme\" ?",
+      "question": "Quel ministre de Louis XIV occupe le poste de contrôleur général des finances de 1665 à 1683 ?",
       "choix": [
         "Jean-Baptiste Colbert",
         "Nicolas Fouquet",
         "Cardinal Mazarin",
         "Duc de Sully"
       ],
-      "explication": "Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV de 1665 à 1683, donne son nom au colbertisme.",
+      "explication": "Jean-Baptiste Colbert, contrôleur général des finances de Louis XIV de 1665 à 1683, mène une politique interventionniste et protectionniste restée connue sous le nom de colbertisme.",
       "source": "Château de Versailles",
-      "niveau": "très difficile",
+      "niveau": "difficile",
       "categorie": "Histoire",
       "date_quotidien": "2026-07-15",
       "reponse_correcte": 0
