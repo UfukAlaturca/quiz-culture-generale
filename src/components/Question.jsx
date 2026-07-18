@@ -97,8 +97,8 @@ function Question({
       </div>
 
       {aRepondu && (
-        <div className="mt-5 p-4 rounded-2xl bg-badge-fond/40 dark:bg-badge-fond-nuit/40 text-sm text-texte dark:text-texte-nuit">
-          <p className="mb-3">{question.explication}</p>
+        <div className="mt-5 p-4 rounded-2xl bg-badge-fond/40 dark:bg-badge-fond-nuit/40 text-sm text-texte dark:text-texte-nuit text-center">
+          <p className="mb-3 text-left">{question.explication}</p>
           <button
             onClick={onSuivant}
             className="bouton-principal-ludique font-titre font-bold px-5 py-2 rounded-2xl transition-transform"

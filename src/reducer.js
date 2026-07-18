@@ -60,6 +60,12 @@ export function quizReducer(state, action) {
         modeQuiz: 'consultation',
       }
 
+    case 'OUVRIR_STATISTIQUES':
+      return {
+        ...state,
+        ecran: 'statistiques',
+      }
+
     case 'RETOUR_ACCUEIL':
       return initialState
 

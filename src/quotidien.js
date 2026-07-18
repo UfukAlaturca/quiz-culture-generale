@@ -81,3 +81,29 @@ export function enregistrerResultatDuJour(aujourdHui, score, total, historique) 
   sauvegarderProgression(misAJour)
   return misAJour
 }
+
+// Calcule les statistiques agregees a partir de tous les quotidiens joues jusqu'ici :
+// nombre de parties, score moyen, repartition des scores (combien de fois chaque score
+// de 0 a 10 a ete obtenu), et les deux series (actuelle / meilleure).
+export function calculerStatistiques() {
+  const progression = chargerProgression()
+  const resultats = Object.values(progression.resultats)
+  const totalJoue = resultats.length
+
+  const distribution = {}
+  for (let i = 0; i <= 10; i++) distribution[i] = 0
+  resultats.forEach((r) => {
+    distribution[r.score] = (distribution[r.score] || 0) + 1
+  })
+
+  const scoreMoyen =
+    totalJoue > 0 ? resultats.reduce((somme, r) => somme + r.score, 0) / totalJoue : 0
+
+  return {
+    totalJoue,
+    scoreMoyen,
+    distribution,
+    streakActuelle: progression.streakActuelle,
+    meilleureStreak: progression.meilleureStreak,
+  }
+}

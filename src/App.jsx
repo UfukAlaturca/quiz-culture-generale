@@ -4,6 +4,7 @@ import FiltreAxe from './components/FiltreAxe'
 import FiltreValeur from './components/FiltreValeur'
 import Question from './components/Question'
 import Score from './components/Score'
+import Statistiques from './components/Statistiques'
 import { quizReducer, initialState } from './reducer'
 import banque from './data/banque-questions.json'
 import {
@@ -12,7 +13,12 @@ import {
   construireQuizParCategorie,
   construireQuizParNiveau,
 } from './filtresLibre'
-import { resultatDuJour, streakActuelle, enregistrerResultatDuJour } from './quotidien'
+import {
+  resultatDuJour,
+  streakActuelle,
+  enregistrerResultatDuJour,
+  calculerStatistiques,
+} from './quotidien'
 
 const LABELS_NIVEAU = {
   facile: 'Facile',
@@ -136,6 +142,7 @@ function App() {
             }
             onModeLibre={() => dispatch({ type: 'OUVRIR_MODE_LIBRE' })}
             onRevoirResultat={revoirResultatDuJour}
+            onStatistiques={() => dispatch({ type: 'OUVRIR_STATISTIQUES' })}
           />
         )}
 
@@ -177,6 +184,13 @@ function App() {
             streak={state.modeQuiz === 'quotidien' || state.modeQuiz === 'consultation' ? streak : null}
             modeConsultation={state.modeQuiz === 'consultation'}
             onRejouer={() => dispatch({ type: 'REJOUER' })}
+          />
+        )}
+
+        {state.ecran === 'statistiques' && (
+          <Statistiques
+            stats={calculerStatistiques()}
+            onRetour={() => dispatch({ type: 'RETOUR_ACCUEIL' })}
           />
         )}
       </div>

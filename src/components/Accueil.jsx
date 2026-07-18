@@ -3,7 +3,7 @@ function formatDate(dateIso) {
   return `${jour}/${mois}/${annee}`
 }
 
-function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre, onRevoirResultat }) {
+function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre, onRevoirResultat, onStatistiques }) {
   return (
     <div className="carte-ludique p-8 text-center">
       <span className="inline-block bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold text-sm px-4 py-1.5 rounded-full mb-4">
@@ -51,9 +51,16 @@ function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre, onR
 
       <button
         onClick={onModeLibre}
-        className="w-full font-bold text-badge-texte dark:text-badge-texte-nuit border-2 border-badge-fond dark:border-badge-fond-nuit rounded-2xl px-6 py-3 hover:bg-badge-fond/30 dark:hover:bg-badge-fond-nuit/30 transition-colors"
+        className="w-full font-bold text-badge-texte dark:text-badge-texte-nuit border-2 border-badge-fond dark:border-badge-fond-nuit rounded-2xl px-6 py-3 mb-3 hover:bg-badge-fond/30 dark:hover:bg-badge-fond-nuit/30 transition-colors"
       >
         Mode libre
+      </button>
+
+      <button
+        onClick={onStatistiques}
+        className="text-sm text-texte-doux dark:text-texte-doux-nuit font-semibold hover:text-texte dark:hover:text-texte-nuit transition-colors"
+      >
+        Voir mes statistiques
       </button>
     </div>
   )
