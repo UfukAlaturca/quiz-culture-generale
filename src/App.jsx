@@ -71,14 +71,14 @@ function App() {
   const [resultatQuotidien, setResultatQuotidien] = useState(() => resultatDuJour(aujourdHui))
   const [streak, setStreak] = useState(() => streakActuelle())
 
-  // Enregistre le résultat une seule fois, au moment précis où le quotidien (pas le mode libre)
-  // se termine et affiche l'écran de score.
+  // Enregistre le résultat une seule fois, au moment précis où le quotidien (pas le mode libre,
+  // ni une simple consultation) se termine et affiche l'écran de score.
   useEffect(() => {
     if (state.ecran === 'score' && state.modeQuiz === 'quotidien') {
       const progression = enregistrerResultatDuJour(
         aujourdHui,
         state.score,
-        state.questions.length,
+        state.total,
         state.historique
       )
       setResultatQuotidien(progression.resultats[aujourdHui])
@@ -95,6 +95,18 @@ function App() {
     const titre = state.axeLibre === 'categorie' ? valeur : LABELS_NIVEAU[valeur]
 
     dispatch({ type: 'DEMARRER_LIBRE', payload: { questions, titre } })
+  }
+
+  function revoirResultatDuJour() {
+    dispatch({
+      type: 'VOIR_RESULTAT_DU_JOUR',
+      payload: {
+        score: resultatQuotidien.score,
+        total: resultatQuotidien.total,
+        historique: resultatQuotidien.historique,
+        titre: `Quotidien du ${formatDateAffichage(quizDuJour.date)}`,
+      },
+    })
   }
 
   if (!quizDuJour) {
@@ -123,6 +135,7 @@ function App() {
               })
             }
             onModeLibre={() => dispatch({ type: 'OUVRIR_MODE_LIBRE' })}
+            onRevoirResultat={revoirResultatDuJour}
           />
         )}
 
@@ -158,10 +171,11 @@ function App() {
         {state.ecran === 'score' && (
           <Score
             score={state.score}
-            total={state.questions.length}
+            total={state.total}
             historique={state.historique}
             titreQuiz={state.titreQuiz}
-            streak={state.modeQuiz === 'quotidien' ? streak : null}
+            streak={state.modeQuiz === 'quotidien' || state.modeQuiz === 'consultation' ? streak : null}
+            modeConsultation={state.modeQuiz === 'consultation'}
             onRejouer={() => dispatch({ type: 'REJOUER' })}
           />
         )}

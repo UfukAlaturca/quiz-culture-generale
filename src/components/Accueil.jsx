@@ -3,7 +3,7 @@ function formatDate(dateIso) {
   return `${jour}/${mois}/${annee}`
 }
 
-function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre }) {
+function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre, onRevoirResultat }) {
   return (
     <div className="carte-ludique p-8 text-center">
       <span className="inline-block bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold text-sm px-4 py-1.5 rounded-full mb-4">
@@ -23,10 +23,18 @@ function Accueil({ quiz, resultatQuotidien, streak, onDemarrer, onModeLibre }) {
       )}
 
       {resultatQuotidien ? (
-        <p className="text-texte-doux dark:text-texte-doux-nuit mb-8">
-          Tu as déjà relevé le défi aujourd'hui : {resultatQuotidien.score} / {resultatQuotidien.total}.
-          Reviens demain pour un nouveau quiz !
-        </p>
+        <>
+          <p className="text-texte-doux dark:text-texte-doux-nuit mb-6">
+            Tu as déjà relevé le défi aujourd'hui : {resultatQuotidien.score} / {resultatQuotidien.total}.
+            Reviens demain pour un nouveau quiz !
+          </p>
+          <button
+            onClick={onRevoirResultat}
+            className="bouton-principal-ludique font-titre font-bold text-lg w-full rounded-2xl px-6 py-4 mb-3 transition-transform"
+          >
+            Revoir mon résultat
+          </button>
+        </>
       ) : (
         <>
           <p className="text-texte-doux dark:text-texte-doux-nuit mb-8">

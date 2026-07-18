@@ -5,6 +5,7 @@ export const initialState = {
   reponseSelectionnee: null,
   historique: [],
   score: 0,
+  total: 0,
   axeLibre: null,
   titreQuiz: null,
   modeQuiz: null,
@@ -17,6 +18,7 @@ export function quizReducer(state, action) {
         ...initialState,
         ecran: 'question',
         questions: action.payload.questions,
+        total: action.payload.questions.length,
         titreQuiz: action.payload.titre,
         modeQuiz: 'quotidien',
       }
@@ -39,8 +41,23 @@ export function quizReducer(state, action) {
         ...initialState,
         ecran: 'question',
         questions: action.payload.questions,
+        total: action.payload.questions.length,
         titreQuiz: action.payload.titre,
         modeQuiz: 'libre',
+      }
+
+    // Rouvre l'écran de score à partir d'un résultat déjà enregistré (mode quotidien du jour),
+    // sans repasser par l'écran de questions. modeQuiz: 'consultation' (distinct de 'quotidien')
+    // évite de redéclencher l'enregistrement du résultat dans App.jsx.
+    case 'VOIR_RESULTAT_DU_JOUR':
+      return {
+        ...initialState,
+        ecran: 'score',
+        score: action.payload.score,
+        total: action.payload.total,
+        historique: action.payload.historique,
+        titreQuiz: action.payload.titre,
+        modeQuiz: 'consultation',
       }
 
     case 'RETOUR_ACCUEIL':

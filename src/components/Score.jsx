@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { construireTextePartage } from '../partage'
 
-function Score({ score, total, historique, titreQuiz, streak, onRejouer }) {
+function Score({ score, total, historique, titreQuiz, streak, modeConsultation, onRejouer }) {
   const [etatBouton, setEtatBouton] = useState('inactif') // 'inactif' | 'succes' | 'echec'
 
   const partageNatifDisponible = typeof navigator !== 'undefined' && typeof navigator.share === 'function'
@@ -91,7 +91,7 @@ function Score({ score, total, historique, titreQuiz, streak, onRejouer }) {
         onClick={onRejouer}
         className="bouton-principal-ludique font-titre font-bold w-full px-6 py-4 rounded-2xl transition-transform"
       >
-        Rejouer
+        {modeConsultation ? "Retour à l'accueil" : 'Rejouer'}
       </button>
     </div>
   )
