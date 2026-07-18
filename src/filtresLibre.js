@@ -1,8 +1,8 @@
 // Seuil minimum de questions pour qu'une catégorie ou un niveau soit proposé en mode libre.
-// Volontairement abaissé à 2 pendant la phase de tests (la banque est encore petite,
-// une bonne partie des catégories/niveaux n'atteindraient jamais 10 questions sinon).
-// À REMONTER À 10 avant la mise en production, pour garantir des parties suffisamment fournies.
-export const SEUIL_MINIMUM_MODE_LIBRE = 2
+// Remonté à 10 pour la production (valeur de test précédente : 2), garantissant des parties
+// suffisamment fournies. Certaines catégories/niveaux resteront invisibles en mode libre tant
+// que la banque ne les aura pas assez étoffés.
+export const SEUIL_MINIMUM_MODE_LIBRE = 10
 
 // Nombre de questions visées par partie en mode libre (identique au mode quotidien).
 const TAILLE_QUIZ_LIBRE = 10
