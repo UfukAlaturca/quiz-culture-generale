@@ -1282,5 +1282,486 @@
       "reponse_correcte": 1
     }
   ],
-  "prochain_nnn": 82
+  [
+    {
+      "id": "q-20260722-082",
+      "question": "Quel océan borde la côte ouest de la France ?",
+      "choix": [
+        "L'océan Pacifique",
+        "L'océan Atlantique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "explication": "La façade ouest de la France (de la Bretagne au Pays basque) est bordée par l'océan Atlantique, tandis que le sud-est donne sur la mer Méditerranée.",
+      "source": "IGN / Larousse",
+      "niveau": "facile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260722-083",
+      "question": "Qui interprète la chanson \"Ne me quitte pas\" (1959) ?",
+      "choix": [
+        "Jacques Brel",
+        "Georges Brassens",
+        "Léo Ferré",
+        "Charles Aznavour"
+      ],
+      "explication": "Jacques Brel écrit, compose et enregistre \"Ne me quitte pas\" en 1959 ; la chanson devient l'une des plus célèbres du répertoire francophone.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260722-084",
+      "question": "Quel acteur incarne Harry Potter dans la saga cinématographique ?",
+      "choix": [
+        "Rupert Grint",
+        "Tom Felton",
+        "Daniel Radcliffe",
+        "Elijah Wood"
+      ],
+      "explication": "Daniel Radcliffe incarne Harry Potter dans les huit films de la saga, sortis entre 2001 et 2011. Rupert Grint joue Ron Weasley et Tom Felton joue Drago Malefoy.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260722-085",
+      "question": "Quel écrivain français est l'auteur de \"Madame Bovary\", publié en 1857 ?",
+      "choix": [
+        "Émile Zola",
+        "Stendhal",
+        "Guy de Maupassant",
+        "Gustave Flaubert"
+      ],
+      "explication": "Gustave Flaubert publie Madame Bovary en 1857 ; le roman lui vaut un procès pour outrage aux bonnes mœurs, dont il sort acquitté.",
+      "source": "Wikipédia / BnF",
+      "niveau": "moyen",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260722-086",
+      "question": "Dans quelle ville se déroulent les premiers Jeux olympiques de l'ère moderne, en 1896 ?",
+      "choix": [
+        "Paris",
+        "Athènes",
+        "Londres",
+        "Rome"
+      ],
+      "explication": "Les premiers Jeux olympiques modernes, relancés à l'initiative de Pierre de Coubertin, se tiennent à Athènes en 1896.",
+      "source": "CIO (olympics.com)",
+      "niveau": "moyen",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260722-087",
+      "question": "Combien de sièges de députés compte l'Assemblée nationale française ?",
+      "choix": [
+        "348",
+        "500",
+        "577",
+        "650"
+      ],
+      "explication": "L'Assemblée nationale compte 577 sièges de députés, un nombre inchangé depuis 1986. Les 348 sièges correspondent au Sénat.",
+      "source": "Assemblée nationale",
+      "niveau": "moyen",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260722-088",
+      "question": "Quel élément chimique porte le numéro atomique 79 dans le tableau périodique ?",
+      "choix": [
+        "L'or",
+        "L'argent",
+        "Le platine",
+        "Le plomb"
+      ],
+      "explication": "L'or, de symbole Au (du latin aurum), porte le numéro atomique 79. L'argent porte le numéro 47, le platine le 78 et le plomb le 82.",
+      "source": "CNRS / Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260722-089",
+      "question": "Quel peintre espagnol est l'auteur des \"Ménines\" (1656), chef-d'œuvre conservé au musée du Prado ?",
+      "choix": [
+        "Francisco de Goya",
+        "Le Greco",
+        "Bartolomé Murillo",
+        "Diego Vélasquez"
+      ],
+      "explication": "Diego Vélasquez, peintre officiel de la cour de Philippe IV, peint Les Ménines en 1656 ; le tableau est conservé au musée du Prado à Madrid.",
+      "source": "Musée du Prado",
+      "niveau": "difficile",
+      "categorie": "Art",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260722-090",
+      "question": "Quelle bataille remportée par Philippe Auguste en 1214 consolide le pouvoir de la monarchie capétienne ?",
+      "choix": [
+        "La bataille de Bouvines",
+        "La bataille d'Azincourt",
+        "La bataille de Crécy",
+        "La bataille de Marignan"
+      ],
+      "explication": "Le 27 juillet 1214, Philippe Auguste bat à Bouvines la coalition menée par l'empereur Otton IV, une victoire fondatrice pour la monarchie capétienne. Azincourt (1415) et Crécy (1346) sont des défaites françaises, Marignan (1515) une victoire de François Ier.",
+      "source": "Larousse / Herodote.net",
+      "niveau": "très difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260722-091",
+      "question": "Quel économiste autrichien est l'auteur de \"La Route de la servitude\" (1944), critique de la planification économique ?",
+      "choix": [
+        "John Maynard Keynes",
+        "Friedrich Hayek",
+        "Milton Friedman",
+        "Joseph Schumpeter"
+      ],
+      "explication": "Friedrich Hayek publie La Route de la servitude en 1944 ; figure de l'école autrichienne, il recevra le prix Nobel d'économie en 1974.",
+      "source": "Nobelprize.org / Encyclopædia Universalis",
+      "niveau": "très difficile",
+      "categorie": "Économie",
+      "date_quotidien": "2026-07-22",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260723-092",
+      "question": "Dans quel pays actuel se situe Waterloo, théâtre de la défaite finale de Napoléon en 1815 ?",
+      "choix": [
+        "France",
+        "Pays-Bas",
+        "Belgique",
+        "Allemagne"
+      ],
+      "explication": "Waterloo se trouve en Belgique, au sud de Bruxelles. Napoléon y est définitivement vaincu le 18 juin 1815 par les armées britannique et prussienne.",
+      "source": "Wikipédia",
+      "niveau": "facile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260723-093",
+      "question": "Quelle course cycliste s'achève traditionnellement sur les Champs-Élysées à Paris ?",
+      "choix": [
+        "Paris-Roubaix",
+        "Le Giro d'Italia",
+        "La Vuelta",
+        "Le Tour de France"
+      ],
+      "explication": "Depuis 1975, la dernière étape du Tour de France arrive traditionnellement sur les Champs-Élysées, à de rares exceptions près (comme en 2024, année olympique, avec une arrivée à Nice).",
+      "source": "letour.fr / Wikipédia",
+      "niveau": "facile",
+      "categorie": "Sport",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260723-094",
+      "question": "La ratatouille est un plat traditionnel de quelle région française ?",
+      "choix": [
+        "Bretagne",
+        "Provence",
+        "Alsace",
+        "Auvergne"
+      ],
+      "explication": "La ratatouille est un plat emblématique de la cuisine provençale, originaire de la région de Nice, à base de légumes d'été mijotés (aubergines, courgettes, poivrons, tomates).",
+      "source": "Larousse",
+      "niveau": "facile",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260723-095",
+      "question": "Quelle est la capitale de l'Australie ?",
+      "choix": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "explication": "Canberra est la capitale de l'Australie depuis 1913, choisie comme ville de compromis entre les deux rivales Sydney et Melbourne.",
+      "source": "Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260723-096",
+      "question": "Combien de cordes possède un violon ?",
+      "choix": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "explication": "Le violon possède 4 cordes, accordées en quintes : sol, ré, la et mi.",
+      "source": "Philharmonie de Paris",
+      "niveau": "moyen",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260723-097",
+      "question": "Quelle bataille, la plus longue de la Première Guerre mondiale, se déroule de février à décembre 1916 dans la Meuse ?",
+      "choix": [
+        "La bataille de la Somme",
+        "La bataille de Verdun",
+        "La bataille de la Marne",
+        "La bataille du Chemin des Dames"
+      ],
+      "explication": "La bataille de Verdun dure environ 300 jours, du 21 février au 18 décembre 1916, ce qui en fait la plus longue bataille de la Première Guerre mondiale, avec plus de 700 000 victimes.",
+      "source": "Mémorial de Verdun / defense.gouv.fr",
+      "niveau": "moyen",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260723-098",
+      "question": "Quel poète est l'auteur du \"Bateau ivre\", écrit à l'âge de 16 ans ?",
+      "choix": [
+        "Paul Verlaine",
+        "Charles Baudelaire",
+        "Stéphane Mallarmé",
+        "Arthur Rimbaud"
+      ],
+      "explication": "Arthur Rimbaud compose Le Bateau ivre en 1871, à 16 ans, peu avant de rejoindre Paul Verlaine à Paris.",
+      "source": "BnF / Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260723-099",
+      "question": "Quel président de la République française est mort en cours de mandat, le 2 avril 1974 ?",
+      "choix": [
+        "Georges Pompidou",
+        "Charles de Gaulle",
+        "René Coty",
+        "François Mitterrand"
+      ],
+      "explication": "Georges Pompidou meurt en fonction le 2 avril 1974, emporté par la maladie de Waldenström. Charles de Gaulle meurt en 1970, après avoir quitté le pouvoir en 1969.",
+      "source": "Élysée / Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260723-100",
+      "question": "Quel astronome français a prédit par le calcul l'existence et la position de Neptune, observée en 1846 ?",
+      "choix": [
+        "François Arago",
+        "Camille Flammarion",
+        "Urbain Le Verrier",
+        "Charles Messier"
+      ],
+      "explication": "Urbain Le Verrier calcule la position de Neptune à partir des perturbations de l'orbite d'Uranus ; la planète est observée le 23 septembre 1846 par Johann Galle, à l'endroit prédit.",
+      "source": "Observatoire de Paris",
+      "niveau": "très difficile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260723-101",
+      "question": "Quelle ville est la capitale de la Birmanie (Myanmar) depuis 2005 ?",
+      "choix": [
+        "Rangoun",
+        "Naypyidaw",
+        "Mandalay",
+        "Bagan"
+      ],
+      "explication": "Naypyidaw, ville nouvelle construite au centre du pays, est la capitale de la Birmanie depuis novembre 2005, en remplacement de Rangoun (Yangon), restée la capitale économique.",
+      "source": "Encyclopædia Universalis / Wikipédia",
+      "niveau": "très difficile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-23",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260724-102",
+      "question": "Quelle est la plus grande planète du système solaire ?",
+      "choix": [
+        "Saturne",
+        "Neptune",
+        "Uranus",
+        "Jupiter"
+      ],
+      "explication": "Jupiter est la plus grande planète du système solaire, avec un diamètre d'environ 140 000 km, soit onze fois celui de la Terre.",
+      "source": "CNES / NASA",
+      "niveau": "facile",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260724-103",
+      "question": "Quel écrivain français est l'auteur des \"Trois Mousquetaires\" ?",
+      "choix": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Honoré de Balzac",
+        "Jules Verne"
+      ],
+      "explication": "Alexandre Dumas publie Les Trois Mousquetaires en 1844, en feuilleton dans le journal Le Siècle, avec la collaboration d'Auguste Maquet.",
+      "source": "BnF / Wikipédia",
+      "niveau": "facile",
+      "categorie": "Littérature",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 1
+    },
+    {
+      "id": "q-20260724-104",
+      "question": "Quel est le plus grand félin sauvage du monde ?",
+      "choix": [
+        "Le lion",
+        "Le jaguar",
+        "Le tigre",
+        "Le léopard"
+      ],
+      "explication": "Le tigre est le plus grand félin sauvage : le tigre de Sibérie peut dépasser 300 kg, davantage que le lion.",
+      "source": "WWF / Wikipédia",
+      "niveau": "facile",
+      "categorie": "Nature",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260724-105",
+      "question": "Le roquefort est un fromage fabriqué à partir du lait de quel animal ?",
+      "choix": [
+        "La vache",
+        "La chèvre",
+        "La bufflonne",
+        "La brebis"
+      ],
+      "explication": "L'appellation d'origine protégée (AOP) Roquefort impose un fromage au lait cru de brebis, affiné dans les caves naturelles de Roquefort-sur-Soulzon, en Aveyron.",
+      "source": "INAO",
+      "niveau": "moyen",
+      "categorie": "Gastronomie",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260724-106",
+      "question": "Quel est le symbole chimique du fer ?",
+      "choix": [
+        "Fr",
+        "F",
+        "Fe",
+        "Ir"
+      ],
+      "explication": "Le fer a pour symbole Fe, du latin ferrum. Fr désigne le francium, F le fluor et Ir l'iridium.",
+      "source": "CNRS / Wikipédia",
+      "niveau": "moyen",
+      "categorie": "Sciences",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260724-107",
+      "question": "Quel réalisateur sud-coréen remporte l'Oscar du meilleur film en 2020 pour \"Parasite\" ?",
+      "choix": [
+        "Bong Joon-ho",
+        "Park Chan-wook",
+        "Hirokazu Kore-eda",
+        "Wong Kar-wai"
+      ],
+      "explication": "Parasite de Bong Joon-ho devient en 2020 le premier film en langue non anglaise à remporter l'Oscar du meilleur film, après avoir obtenu la Palme d'or à Cannes en 2019.",
+      "source": "Wikipédia / Académie des Oscars",
+      "niveau": "moyen",
+      "categorie": "Cinéma",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260724-108",
+      "question": "Quel roi de France est fait prisonnier par Charles Quint à la bataille de Pavie, en 1525 ?",
+      "choix": [
+        "Charles VIII",
+        "Louis XII",
+        "Henri II",
+        "François Ier"
+      ],
+      "explication": "François Ier est capturé à la bataille de Pavie le 24 février 1525 et retenu prisonnier à Madrid par Charles Quint ; il aurait alors écrit \"tout est perdu, fors l'honneur\".",
+      "source": "Larousse / Herodote.net",
+      "niveau": "difficile",
+      "categorie": "Histoire",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 3
+    },
+    {
+      "id": "q-20260724-109",
+      "question": "Quelle ville est la préfecture du département de la Lozère ?",
+      "choix": [
+        "Mende",
+        "Florac",
+        "Marvejols",
+        "Langogne"
+      ],
+      "explication": "Mende est la préfecture de la Lozère, le département le moins peuplé de France. Florac en est une ancienne sous-préfecture.",
+      "source": "INSEE / Wikipédia",
+      "niveau": "difficile",
+      "categorie": "Géographie",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 0
+    },
+    {
+      "id": "q-20260724-110",
+      "question": "Quel compositeur français est l'auteur de l'opéra \"Pelléas et Mélisande\", créé en 1902 ?",
+      "choix": [
+        "Maurice Ravel",
+        "Gabriel Fauré",
+        "Claude Debussy",
+        "Jules Massenet"
+      ],
+      "explication": "Claude Debussy compose Pelléas et Mélisande, unique opéra achevé du compositeur, créé à l'Opéra-Comique de Paris le 30 avril 1902, d'après la pièce de Maurice Maeterlinck.",
+      "source": "Philharmonie de Paris / Opéra-Comique",
+      "niveau": "très difficile",
+      "categorie": "Musique",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 2
+    },
+    {
+      "id": "q-20260724-111",
+      "question": "Qui est élu premier président de la République française, en décembre 1848 ?",
+      "choix": [
+        "Alphonse de Lamartine",
+        "Louis-Napoléon Bonaparte",
+        "Louis-Eugène Cavaignac",
+        "Adolphe Thiers"
+      ],
+      "explication": "Louis-Napoléon Bonaparte est élu au suffrage universel masculin le 10 décembre 1848, premier président de la République française (IIe République), avant de devenir l'empereur Napoléon III en 1852. Lamartine et Cavaignac étaient ses adversaires à cette élection.",
+      "source": "Élysée / Herodote.net",
+      "niveau": "très difficile",
+      "categorie": "Politique",
+      "date_quotidien": "2026-07-24",
+      "reponse_correcte": 1
+    }
+]"prochain_nnn": 112
 }
