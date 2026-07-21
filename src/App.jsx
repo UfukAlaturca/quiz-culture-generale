@@ -5,6 +5,7 @@ import FiltreValeur from './components/FiltreValeur'
 import Question from './components/Question'
 import Score from './components/Score'
 import Statistiques from './components/Statistiques'
+import Reglages from './components/Reglages'
 import { quizReducer, initialState } from './reducer'
 import banque from './data/banque-questions.json'
 import {
@@ -19,6 +20,7 @@ import {
   enregistrerResultatDuJour,
   calculerStatistiques,
 } from './quotidien'
+import { lireAnimationsReduites, ecrireAnimationsReduites } from './preferences'
 
 const LABELS_NIVEAU = {
   facile: 'Facile',
@@ -76,6 +78,18 @@ function App() {
   const [state, dispatch] = useReducer(quizReducer, initialState)
   const [resultatQuotidien, setResultatQuotidien] = useState(() => resultatDuJour(aujourdHui))
   const [streak, setStreak] = useState(() => streakActuelle())
+  const [animationsReduites, setAnimationsReduites] = useState(() => lireAnimationsReduites())
+
+  // Applique la préférence "animations réduites" sur la balise <html> via un attribut data-.
+  // Le CSS lit cet attribut pour couper les mouvements. Se relance à chaque changement de préférence.
+  useEffect(() => {
+    const racine = document.documentElement
+    if (animationsReduites) {
+      racine.setAttribute('data-animations', 'reduites')
+    } else {
+      racine.removeAttribute('data-animations')
+    }
+  }, [animationsReduites])
 
   // Enregistre le résultat une seule fois, au moment précis où le quotidien (pas le mode libre,
   // ni une simple consultation) se termine et affiche l'écran de score.
@@ -91,6 +105,14 @@ function App() {
       setStreak(progression.streakActuelle)
     }
   }, [state.ecran, state.modeQuiz])
+
+  function basculerAnimations() {
+    setAnimationsReduites((precedent) => {
+      const suivant = !precedent
+      ecrireAnimationsReduites(suivant)
+      return suivant
+    })
+  }
 
   function demarrerQuizLibre(valeur) {
     const questions =
@@ -143,6 +165,7 @@ function App() {
             onModeLibre={() => dispatch({ type: 'OUVRIR_MODE_LIBRE' })}
             onRevoirResultat={revoirResultatDuJour}
             onStatistiques={() => dispatch({ type: 'OUVRIR_STATISTIQUES' })}
+            onReglages={() => dispatch({ type: 'OUVRIR_REGLAGES' })}
           />
         )}
 
@@ -190,6 +213,14 @@ function App() {
         {state.ecran === 'statistiques' && (
           <Statistiques
             stats={calculerStatistiques()}
+            onRetour={() => dispatch({ type: 'RETOUR_ACCUEIL' })}
+          />
+        )}
+
+        {state.ecran === 'reglages' && (
+          <Reglages
+            animationsReduites={animationsReduites}
+            onToggleAnimations={basculerAnimations}
             onRetour={() => dispatch({ type: 'RETOUR_ACCUEIL' })}
           />
         )}

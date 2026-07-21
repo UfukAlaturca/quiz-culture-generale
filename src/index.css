@@ -84,3 +84,73 @@
     box-shadow: 0 2px 0 var(--color-accent-ombre-nuit);
   }
 }
+
+/* ---------------------------------------------------------------------------
+   EV1 - Animations de feedback bonne / mauvaise réponse
+   Traitement asymétrique volontaire : la bonne réponse rebondit (récompense),
+   la mauvaise est signalée par une secousse brève et sèche (signal, pas punition).
+   --------------------------------------------------------------------------- */
+@keyframes quiz-rebond {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.05); }
+  70% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+@keyframes quiz-secousse {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+.anim-bonne {
+  animation: quiz-rebond 0.45s ease;
+}
+
+.anim-mauvaise {
+  animation: quiz-secousse 0.4s ease;
+}
+
+/* ---------------------------------------------------------------------------
+   EV4 - Retour tactile sobre au tap sur les boutons de menu
+   Léger enfoncement, cohérent avec l'effet déjà présent sur les boutons principaux.
+   --------------------------------------------------------------------------- */
+.tap-sobre {
+  transition: transform 0.08s ease;
+}
+
+.tap-sobre:active {
+  transform: scale(0.97);
+}
+
+/* ---------------------------------------------------------------------------
+   EV2 - Accessibilité des animations
+   Deux déclencheurs neutralisent les animations de MOUVEMENT :
+     1. le réglage système "réduire les animations" (prefers-reduced-motion),
+        respecté automatiquement, sans action de l'utilisateur ;
+     2. l'interrupteur manuel de l'écran Réglages, qui pose l'attribut
+        data-animations="reduites" sur la balise <html>.
+   Dans les deux cas, seules les animations de mouvement sont coupées : les
+   couleurs de bonne / mauvaise réponse, elles, restent toujours affichées.
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .anim-bonne,
+  .anim-mauvaise {
+    animation: none;
+  }
+
+  .tap-sobre:active {
+    transform: none;
+  }
+}
+
+html[data-animations="reduites"] .anim-bonne,
+html[data-animations="reduites"] .anim-mauvaise {
+  animation: none;
+}
+
+html[data-animations="reduites"] .tap-sobre:active {
+  transform: none;
+}

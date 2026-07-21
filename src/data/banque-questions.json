@@ -1280,9 +1280,7 @@
       "categorie": "Géographie",
       "date_quotidien": "2026-07-21",
       "reponse_correcte": 1
-    }
-  ],
-  [
+    },
     {
       "id": "q-20260722-082",
       "question": "Quel océan borde la côte ouest de la France ?",
@@ -1763,5 +1761,6 @@
       "date_quotidien": "2026-07-24",
       "reponse_correcte": 1
     }
-]"prochain_nnn": 112
+  ],
+  "prochain_nnn": 112
 }

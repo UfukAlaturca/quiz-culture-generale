@@ -28,6 +28,14 @@ function Question({
     return 'bg-carte dark:bg-carte-nuit border-badge-fond dark:border-badge-fond-nuit text-texte-doux dark:text-texte-doux-nuit'
   }
 
+  // Animation de feedback (EV1) : seul le bouton effectivement cliqué s'anime.
+  // Bonne réponse -> rebond (récompense). Mauvaise -> secousse brève (signal sobre).
+  // La bonne réponse révélée après une erreur, elle, ne fait que changer de couleur, sans mouvement.
+  function animationBouton(index) {
+    if (!aRepondu || index !== reponseSelectionnee) return ''
+    return reponseSelectionnee === question.reponse_correcte ? 'anim-bonne' : 'anim-mauvaise'
+  }
+
   if (confirmationQuitter) {
     return (
       <div className="carte-ludique p-6 text-center">
@@ -40,13 +48,13 @@ function Question({
         <div className="flex gap-3">
           <button
             onClick={() => setConfirmationQuitter(false)}
-            className="flex-1 bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold px-4 py-3 rounded-2xl hover:opacity-80 transition-opacity"
+            className="flex-1 bg-badge-fond dark:bg-badge-fond-nuit text-badge-texte dark:text-badge-texte-nuit font-bold px-4 py-3 rounded-2xl hover:opacity-80 transition-opacity tap-sobre"
           >
             Annuler
           </button>
           <button
             onClick={onQuitter}
-            className="flex-1 bg-rose-600 dark:bg-rose-500 text-white font-bold px-4 py-3 rounded-2xl hover:opacity-90 transition-opacity"
+            className="flex-1 bg-rose-600 dark:bg-rose-500 text-white font-bold px-4 py-3 rounded-2xl hover:opacity-90 transition-opacity tap-sobre"
           >
             Quitter
           </button>
@@ -88,7 +96,7 @@ function Question({
             key={index}
             disabled={aRepondu}
             onClick={() => onRepondre(index)}
-            className={`w-full text-left border-2 rounded-2xl px-4 py-3 transition-colors ${couleurBouton(index)}`}
+            className={`w-full text-left border-2 rounded-2xl px-4 py-3 transition-colors ${couleurBouton(index)} ${animationBouton(index)}`}
           >
             <span className="font-titre font-bold mr-2">{LETTRES[index]})</span>
             {choix}

@@ -23,7 +23,7 @@ function FiltreAxe({ onChoisirAxe, onRetour }) {
 
       <button
         onClick={onRetour}
-        className="text-texte-doux dark:text-texte-doux-nuit font-semibold px-6 py-2 mt-2 hover:text-texte dark:hover:text-texte-nuit transition-colors"
+        className="text-texte-doux dark:text-texte-doux-nuit font-semibold px-6 py-2 mt-2 hover:text-texte dark:hover:text-texte-nuit transition-colors tap-sobre"
       >
         ← Retour
       </button>

@@ -27,7 +27,7 @@ function FiltreValeur({ axe, options, onChoisirValeur, onRetour }) {
           <button
             key={option[cle]}
             onClick={() => onChoisirValeur(option[cle])}
-            className="w-full text-left border-2 border-badge-fond dark:border-badge-fond-nuit bg-carte dark:bg-carte-nuit rounded-2xl px-4 py-3 hover:bg-badge-fond/20 dark:hover:bg-badge-fond-nuit/20 transition-colors flex justify-between items-center"
+            className="w-full text-left border-2 border-badge-fond dark:border-badge-fond-nuit bg-carte dark:bg-carte-nuit rounded-2xl px-4 py-3 hover:bg-badge-fond/20 dark:hover:bg-badge-fond-nuit/20 transition-colors flex justify-between items-center tap-sobre"
           >
             <span className="font-bold text-texte dark:text-texte-nuit">
               {axe === 'categorie' ? option.categorie : LABELS_NIVEAU[option.niveau]}
@@ -41,7 +41,7 @@ function FiltreValeur({ axe, options, onChoisirValeur, onRetour }) {
 
       <button
         onClick={onRetour}
-        className="text-texte-doux dark:text-texte-doux-nuit font-semibold px-6 py-2 hover:text-texte dark:hover:text-texte-nuit transition-colors"
+        className="text-texte-doux dark:text-texte-doux-nuit font-semibold px-6 py-2 hover:text-texte dark:hover:text-texte-nuit transition-colors tap-sobre"
       >
         ← Retour
       </button>

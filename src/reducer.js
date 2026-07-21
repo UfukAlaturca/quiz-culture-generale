@@ -66,6 +66,14 @@ export function quizReducer(state, action) {
         ecran: 'statistiques',
       }
 
+    // Ouvre l'écran Réglages. On repart de state (pas de initialState) : on ne fait que
+    // changer d'écran, sans toucher à un éventuel quiz en cours.
+    case 'OUVRIR_REGLAGES':
+      return {
+        ...state,
+        ecran: 'reglages',
+      }
+
     case 'RETOUR_ACCUEIL':
       return initialState
 
