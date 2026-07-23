@@ -1761,6 +1761,1089 @@
       "date_quotidien": "2026-07-24",
       "reponse_correcte": 1
     }
-  ],
-  "prochain_nnn": 112
+  ],[
+  {
+    "id": "q-20260725-112",
+    "question": "Quel roi de France est surnommé le \"Roi Soleil\" ?",
+    "choix": ["Louis XV", "Louis XIII", "Louis XIV", "Henri IV"],
+    "explication": "Louis XIV est surnommé le Roi Soleil, surnom associé à son règne personnel et au symbole solaire adopté dès les ballets de cour.",
+    "source": "Château de Versailles",
+    "niveau": "facile",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260725-113",
+    "question": "Quelle est la capitale du Portugal ?",
+    "choix": ["Lisbonne", "Porto", "Séville", "Madrid"],
+    "explication": "Lisbonne est la capitale du Portugal depuis le XIIIe siècle.",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260725-114",
+    "question": "Dans quel pays le judo a-t-il été créé, à la fin du XIXe siècle ?",
+    "choix": ["Chine", "Corée", "Thaïlande", "Japon"],
+    "explication": "Le judo est créé par Jigoro Kano au Japon en 1882.",
+    "source": "Fédération française de judo",
+    "niveau": "facile",
+    "categorie": "Sport",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260725-115",
+    "question": "Quel est l'os le plus long du corps humain ?",
+    "choix": ["Le tibia", "Le fémur", "L'humérus", "Le péroné"],
+    "explication": "Le fémur, os de la cuisse, est le plus long et le plus solide os du squelette humain.",
+    "source": "Inserm",
+    "niveau": "moyen",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260725-116",
+    "question": "Quel acteur incarne Forrest Gump dans le film éponyme de 1994 ?",
+    "choix": ["Kevin Costner", "Tom Hanks", "Robin Williams", "Tom Cruise"],
+    "explication": "Tom Hanks interprète Forrest Gump dans le film de Robert Zemeckis, rôle qui lui vaut l'Oscar du meilleur acteur.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Cinéma",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260725-117",
+    "question": "Quel fromage français, originaire de Normandie, est traditionnellement conditionné dans une boîte ronde en bois ?",
+    "choix": ["Brie", "Reblochon", "Munster", "Camembert"],
+    "explication": "Le camembert est originaire de Camembert, en Normandie, traditionnellement conditionné dans une boîte ronde en bois de peuplier.",
+    "source": "Larousse",
+    "niveau": "moyen",
+    "categorie": "Gastronomie",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260725-118",
+    "question": "Quel écrivain français est l'auteur d'\"À la recherche du temps perdu\" ?",
+    "choix": ["Marcel Proust", "André Gide", "Anatole France", "Romain Rolland"],
+    "explication": "Marcel Proust publie À la recherche du temps perdu en sept tomes entre 1913 et 1927.",
+    "source": "BnF",
+    "niveau": "difficile",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260725-119",
+    "question": "Quel peintre italien est l'auteur de la fresque du plafond de la chapelle Sixtine ?",
+    "choix": ["Raphaël", "Le Caravage", "Michel-Ange", "Léonard de Vinci"],
+    "explication": "Michel-Ange peint le plafond de la chapelle Sixtine entre 1508 et 1512, sur commande du pape Jules II.",
+    "source": "Musées du Vatican",
+    "niveau": "difficile",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260725-120",
+    "question": "Quel compositeur autrichien est l'auteur de l'opéra \"La Flûte enchantée\" (1791) ?",
+    "choix": ["Joseph Haydn", "Christoph Willibald Gluck", "Franz Schubert", "Wolfgang Amadeus Mozart"],
+    "explication": "Mozart compose La Flûte enchantée en 1791, quelques mois avant sa mort ; l'œuvre est créée à Vienne la même année.",
+    "source": "Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Musique",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260725-121",
+    "question": "Quel homme d'État est le premier secrétaire général des Nations unies, en fonction de 1946 à 1952 ?",
+    "choix": ["Dag Hammarskjöld", "Trygve Lie", "U Thant", "Kurt Waldheim"],
+    "explication": "Trygve Lie, diplomate norvégien, est le premier secrétaire général de l'ONU, en poste de 1946 à 1952.",
+    "source": "ONU",
+    "niveau": "très difficile",
+    "categorie": "Politique",
+    "date_quotidien": "2026-07-25",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260726-122",
+    "question": "Quel groupe pop suédois interprète \"Dancing Queen\" (1976) ?",
+    "choix": ["ABBA", "Roxette", "Aqua", "Ace of Base"],
+    "explication": "ABBA sort \"Dancing Queen\" en 1976 ; le titre devient l'un des plus grands succès du groupe suédois.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Culture pop",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260726-123",
+    "question": "Quel est le plus grand mammifère terrestre actuel ?",
+    "choix": ["Le rhinocéros blanc", "La girafe", "L'éléphant d'Afrique", "L'hippopotame"],
+    "explication": "L'éléphant d'Afrique, pouvant peser jusqu'à environ 6 tonnes, est le plus grand mammifère terrestre vivant.",
+    "source": "WWF",
+    "niveau": "facile",
+    "categorie": "Nature",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260726-124",
+    "question": "Comment appelle-t-on un mot qui a la même prononciation (et souvent la même orthographe) qu'un autre mais un sens différent ?",
+    "choix": ["Un synonyme", "Un homonyme", "Un antonyme", "Un paronyme"],
+    "explication": "Un homonyme désigne des mots de même prononciation mais de sens différents, comme \"voile\" (bateau) et \"voile\" (tissu).",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Langue française",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260726-125",
+    "question": "En quelle année a lieu la bataille navale de Trafalgar, victoire britannique sur les flottes française et espagnole ?",
+    "choix": ["1798", "1812", "1815", "1805"],
+    "explication": "La bataille de Trafalgar se déroule le 21 octobre 1805 ; l'amiral britannique Nelson y trouve la mort.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260726-126",
+    "question": "Quelle monnaie a précédé l'euro en France, jusqu'en 2002 ?",
+    "choix": ["L'écu", "Le mark", "Le franc", "La livre"],
+    "explication": "Le franc français a circulé jusqu'à son remplacement définitif par l'euro fiduciaire le 1er janvier 2002.",
+    "source": "Banque de France",
+    "niveau": "moyen",
+    "categorie": "Économie",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260726-127",
+    "question": "Combien de temps dure un match de rugby à XV, hors arrêts de jeu et prolongations ?",
+    "choix": ["80 minutes", "70 minutes", "60 minutes", "90 minutes"],
+    "explication": "Un match de rugby à XV dure 80 minutes, réparties en deux mi-temps de 40 minutes.",
+    "source": "World Rugby",
+    "niveau": "moyen",
+    "categorie": "Sport",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260726-128",
+    "question": "Quel scientifique britannique a formulé la théorie de la sélection naturelle, exposée dans \"L'Origine des espèces\" (1859) ?",
+    "choix": ["Charles Darwin", "Alfred Russel Wallace", "Gregor Mendel", "Thomas Huxley"],
+    "explication": "Charles Darwin publie L'Origine des espèces en 1859, où il expose sa théorie de l'évolution par sélection naturelle.",
+    "source": "Wikipédia",
+    "niveau": "difficile",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260726-129",
+    "question": "Quel réalisateur américain est l'auteur de \"Psychose\" (1960) ?",
+    "choix": ["Orson Welles", "Alfred Hitchcock", "Billy Wilder", "John Ford"],
+    "explication": "Alfred Hitchcock réalise Psychose en 1960, film devenu une référence du genre thriller.",
+    "source": "Wikipédia",
+    "niveau": "difficile",
+    "categorie": "Cinéma",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260726-130",
+    "question": "Quel est le pays le plus peuplé d'Afrique ?",
+    "choix": ["L'Égypte", "L'Éthiopie", "La République démocratique du Congo", "Le Nigeria"],
+    "explication": "Le Nigeria, avec plus de 220 millions d'habitants, est le pays le plus peuplé d'Afrique.",
+    "source": "ONU",
+    "niveau": "très difficile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260726-131",
+    "question": "Quel peintre flamand est l'auteur du retable de l'Agneau mystique, achevé en 1432 à Gand ?",
+    "choix": ["Rogier van der Weyden", "Hans Memling", "Jan van Eyck", "Pieter Brueghel l'Ancien"],
+    "explication": "Le polyptyque de l'Agneau mystique, achevé en 1432, est attribué à Jan van Eyck et conservé à la cathédrale Saint-Bavon de Gand.",
+    "source": "Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-26",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260727-132",
+    "question": "Quel instrument à vent Louis Armstrong jouait-il principalement ?",
+    "choix": ["Le saxophone", "La clarinette", "La trompette", "Le trombone"],
+    "explication": "Louis Armstrong est un trompettiste et chanteur de jazz américain, figure majeure du jazz du XXe siècle.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Musique",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260727-133",
+    "question": "Quel fruit est à la base de la confiture appelée marmelade ?",
+    "choix": ["Le citron", "Le pamplemousse", "La mandarine", "L'orange"],
+    "explication": "La marmelade est traditionnellement une confiture à base d'oranges, souvent amères, cuites avec leur écorce.",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Gastronomie",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260727-134",
+    "question": "Combien de temps dure un mandat présidentiel en France depuis la réforme constitutionnelle de 2000 ?",
+    "choix": ["7 ans", "5 ans", "6 ans", "4 ans"],
+    "explication": "La réforme de 2000 a réduit la durée du mandat présidentiel de 7 à 5 ans, appliquée pour la première fois en 2002.",
+    "source": "Vie publique",
+    "niveau": "facile",
+    "categorie": "Politique",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260727-135",
+    "question": "Quel poète français est l'auteur du recueil \"Les Fleurs du mal\" (1857) ?",
+    "choix": ["Charles Baudelaire", "Paul Verlaine", "Arthur Rimbaud", "Stéphane Mallarmé"],
+    "explication": "Charles Baudelaire publie Les Fleurs du mal en 1857, recueil qui lui vaut un procès pour outrage à la morale publique.",
+    "source": "BnF",
+    "niveau": "moyen",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260727-136",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "choix": ["Le désert de Gobi", "Le désert du Kalahari", "Le désert d'Arabie", "Le Sahara"],
+    "explication": "Le Sahara, avec environ 9 millions de km², est le plus grand désert chaud du monde.",
+    "source": "Encyclopædia Universalis",
+    "niveau": "moyen",
+    "categorie": "Nature",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260727-137",
+    "question": "Quelle entreprise lance la console de jeu \"PlayStation\" en 1994 ?",
+    "choix": ["Sony", "Nintendo", "Sega", "Microsoft"],
+    "explication": "Sony lance la première PlayStation au Japon en décembre 1994.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Culture pop",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260727-138",
+    "question": "Quel traité, signé en 1919, met officiellement fin à la Première Guerre mondiale entre l'Allemagne et les Alliés ?",
+    "choix": ["Le traité de Saint-Germain", "Le traité de Trianon", "Le traité de Versailles", "Le traité de Sèvres"],
+    "explication": "Le traité de Versailles, signé le 28 juin 1919, met fin à l'état de guerre entre l'Allemagne et les puissances alliées.",
+    "source": "Wikipédia",
+    "niveau": "difficile",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260727-139",
+    "question": "Quel économiste est le fondateur de la théorie des avantages comparatifs, exposée au début du XIXe siècle ?",
+    "choix": ["Adam Smith", "David Ricardo", "Thomas Malthus", "John Stuart Mill"],
+    "explication": "David Ricardo formule la théorie des avantages comparatifs dans Des principes de l'économie politique et de l'impôt (1817).",
+    "source": "Encyclopædia Universalis",
+    "niveau": "difficile",
+    "categorie": "Économie",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260727-140",
+    "question": "Quel chimiste français découvre le radium avec sa femme Marie Curie, en 1898 ?",
+    "choix": ["Pierre Curie", "Henri Becquerel", "Paul Langevin", "André-Marie Ampère"],
+    "explication": "Pierre et Marie Curie découvrent le radium en 1898 ; le radium métallique pur ne sera isolé qu'en 1910, avec André-Louis Debierne. Ils reçoivent le prix Nobel de physique en 1903, partagé avec Henri Becquerel.",
+    "source": "Wikipédia / Musée Curie",
+    "niveau": "très difficile",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260727-141",
+    "question": "Quelle figure de style désigne le contenu par son contenant, comme dans \"boire une bouteille\" pour \"boire le contenu d'une bouteille\" ?",
+    "choix": ["La litote", "La synecdoque", "La métonymie", "La catachrèse"],
+    "explication": "La métonymie consiste à désigner une réalité par un terme associé (ici le contenant pour le contenu) ; la synecdoque désigne un tout par une partie.",
+    "source": "Larousse",
+    "niveau": "très difficile",
+    "categorie": "Langue française",
+    "date_quotidien": "2026-07-27",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260728-142",
+    "question": "Dans quel sport pratique-t-on le \"smash\" comme coup offensif emblématique ?",
+    "choix": ["Le golf", "Le badminton", "Le rugby", "L'athlétisme"],
+    "explication": "Le smash est un coup offensif frappé de haut en bas avec puissance, emblématique du badminton.",
+    "source": "Fédération française de badminton",
+    "niveau": "facile",
+    "categorie": "Sport",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260728-143",
+    "question": "Dans quelle ville italienne se trouve la tour penchée, achevée au XIVe siècle ?",
+    "choix": ["Rome", "Florence", "Venise", "Pise"],
+    "explication": "La tour penchée de Pise, campanile de la cathédrale, est célèbre pour son inclinaison due à un sol instable.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260728-144",
+    "question": "Quel océan est le plus vaste du monde ?",
+    "choix": ["L'océan Atlantique", "L'océan Pacifique", "L'océan Indien", "L'océan Arctique"],
+    "explication": "L'océan Pacifique, avec environ 165 millions de km², est le plus vaste et le plus profond des océans.",
+    "source": "IGN",
+    "niveau": "facile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260728-145",
+    "question": "Quel chanteur français interprète \"Capri, c'est fini\" (1965) ?",
+    "choix": ["Hervé Vilard", "Johnny Hallyday", "Michel Sardou", "Claude François"],
+    "explication": "Hervé Vilard connaît son premier grand succès avec \"Capri, c'est fini\" en 1965.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Musique",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260728-146",
+    "question": "Quel film français réalisé par Luc Besson (1997) met en scène Bruce Willis dans un futur multiethnique new-yorkais ?",
+    "choix": ["Léon", "Nikita", "Lucy", "Le Cinquième Élément"],
+    "explication": "Le Cinquième Élément, réalisé par Luc Besson et sorti en 1997, met en vedette Bruce Willis et Milla Jovovich.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Cinéma",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260728-147",
+    "question": "Quel événement déclenche la crise menant à la Première Guerre mondiale en 1914 ?",
+    "choix": ["L'invasion de la Pologne", "Le naufrage du Lusitania", "L'assassinat de l'archiduc François-Ferdinand", "La bataille de la Marne"],
+    "explication": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo le 28 juin 1914 déclenche la crise qui mène à la Première Guerre mondiale.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260728-148",
+    "question": "Quel est le plus grand poisson vivant actuellement dans les océans ?",
+    "choix": ["Le grand requin blanc", "La raie manta", "Le requin-baleine", "L'espadon"],
+    "explication": "Le requin-baleine, pouvant dépasser 12 mètres, est le plus grand poisson connu ; c'est un filtreur inoffensif pour l'homme.",
+    "source": "WWF",
+    "niveau": "difficile",
+    "categorie": "Nature",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260728-149",
+    "question": "Quel président des États-Unis démissionne en 1974 à la suite du scandale du Watergate ?",
+    "choix": ["Gerald Ford", "Richard Nixon", "Lyndon Johnson", "Jimmy Carter"],
+    "explication": "Richard Nixon démissionne de la présidence le 9 août 1974, seul président américain à avoir démissionné.",
+    "source": "Wikipédia",
+    "niveau": "difficile",
+    "categorie": "Politique",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260728-150",
+    "question": "Lequel de ces beurres réputés est produit en Normandie et bénéficie d'une appellation d'origine ?",
+    "choix": ["Beurre d'Isigny", "Beurre de Bresse", "Beurre Charentes-Poitou", "Beurre d'Échiré"],
+    "explication": "Le beurre d'Isigny, produit autour de la baie des Veys en Normandie (Manche et Calvados), bénéficie d'une appellation d'origine depuis 1986 (AOC, devenue AOP). Les beurres de Bresse, Charentes-Poitou et d'Échiré proviennent d'autres régions.",
+    "source": "INAO",
+    "niveau": "très difficile",
+    "categorie": "Gastronomie",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260728-151",
+    "question": "Quel écrivain français est l'auteur du roman \"Voyage au bout de la nuit\" (1932) ?",
+    "choix": ["Jean-Paul Sartre", "André Malraux", "Georges Bernanos", "Louis-Ferdinand Céline"],
+    "explication": "Louis-Ferdinand Céline publie Voyage au bout de la nuit en 1932, roman marquant par son style oral et son pessimisme radical.",
+    "source": "Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-28",
+    "reponse_correcte": 3
+  },
+  [
+  {
+    "id": "q-20260729-152",
+    "question": "Quelle est la formule chimique de l'eau ?",
+    "choix": [
+      "CO2",
+      "O2",
+      "H2O2",
+      "H2O"
+    ],
+    "explication": "L'eau est constituée de deux atomes d'hydrogène liés à un atome d'oxygène, d'où la formule H2O. H2O2 désigne l'eau oxygénée.",
+    "source": "CNRS",
+    "niveau": "facile",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260729-153",
+    "question": "De quel groupe britannique John Lennon et Paul McCartney étaient-ils les principaux auteurs-compositeurs ?",
+    "choix": [
+      "Les Rolling Stones",
+      "Les Beatles",
+      "Pink Floyd",
+      "The Who"
+    ],
+    "explication": "John Lennon et Paul McCartney forment le duo d'auteurs-compositeurs des Beatles, groupe fondé à Liverpool en 1960.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Musique",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260729-154",
+    "question": "De quel pays sont originaires les briques de construction Lego ?",
+    "choix": [
+      "Danemark",
+      "Suède",
+      "Allemagne",
+      "Pays-Bas"
+    ],
+    "explication": "La société Lego est fondée en 1932 à Billund, au Danemark, par Ole Kirk Christiansen.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Culture pop",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260729-155",
+    "question": "Quel écrivain français est l'auteur du roman \"L'Étranger\", publié en 1942 ?",
+    "choix": [
+      "André Malraux",
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Boris Vian"
+    ],
+    "explication": "Albert Camus publie L'Étranger en 1942 ; il recevra le prix Nobel de littérature en 1957.",
+    "source": "Gallimard / Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260729-156",
+    "question": "Quel est l'oiseau le plus grand et le plus lourd du monde ?",
+    "choix": [
+      "L'autruche",
+      "L'émeu",
+      "Le condor des Andes",
+      "L'albatros hurleur"
+    ],
+    "explication": "L'autruche d'Afrique peut atteindre 2,50 m de haut pour environ 150 kg. Incapable de voler, elle est le plus grand et le plus lourd des oiseaux vivants.",
+    "source": "Muséum national d'histoire naturelle",
+    "niveau": "moyen",
+    "categorie": "Nature",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260729-157",
+    "question": "Quel palais parisien abrite le Sénat français ?",
+    "choix": [
+      "Le Palais-Bourbon",
+      "L'hôtel Matignon",
+      "Le Palais-Royal",
+      "Le palais du Luxembourg"
+    ],
+    "explication": "Le Sénat siège au palais du Luxembourg. Le Palais-Bourbon abrite l'Assemblée nationale et l'hôtel Matignon les services du Premier ministre.",
+    "source": "Sénat",
+    "niveau": "moyen",
+    "categorie": "Politique",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260729-158",
+    "question": "En quelle année Louis XIV révoque-t-il l'édit de Nantes, qui garantissait la liberté de culte aux protestants ?",
+    "choix": [
+      "1610",
+      "1661",
+      "1685",
+      "1715"
+    ],
+    "explication": "L'édit de Fontainebleau, signé en octobre 1685, révoque l'édit de Nantes de 1598 et interdit le culte protestant en France, provoquant l'exil de dizaines de milliers de huguenots.",
+    "source": "Larousse / Herodote.net",
+    "niveau": "difficile",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260729-159",
+    "question": "Quel économiste a théorisé la \"destruction créatrice\", processus par lequel l'innovation détruit les activités existantes ?",
+    "choix": [
+      "Karl Marx",
+      "Joseph Schumpeter",
+      "Thorstein Veblen",
+      "Alfred Marshall"
+    ],
+    "explication": "Joseph Schumpeter développe le concept de destruction créatrice dans Capitalisme, socialisme et démocratie (1942).",
+    "source": "Encyclopædia Universalis",
+    "niveau": "difficile",
+    "categorie": "Économie",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260729-160",
+    "question": "Quel sculpteur italien du XVIIe siècle est l'auteur de \"L'Extase de sainte Thérèse\", à Rome ?",
+    "choix": [
+      "Donatello",
+      "Le Bernin",
+      "Benvenuto Cellini",
+      "Antonio Canova"
+    ],
+    "explication": "Gian Lorenzo Bernini, dit Le Bernin, réalise L'Extase de sainte Thérèse entre 1647 et 1652 pour l'église Santa Maria della Vittoria à Rome.",
+    "source": "Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260729-161",
+    "question": "Quel fleuve traverse la ville de Bagdad ?",
+    "choix": [
+      "Le Tigre",
+      "L'Euphrate",
+      "Le Jourdain",
+      "L'Oronte"
+    ],
+    "explication": "Bagdad est bâtie sur les rives du Tigre. L'Euphrate, l'autre grand fleuve mésopotamien, coule plus à l'ouest avant de rejoindre le Tigre au sud du pays.",
+    "source": "Encyclopædia Universalis",
+    "niveau": "très difficile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-29",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260730-162",
+    "question": "Combien d'anneaux figurent sur le drapeau olympique ?",
+    "choix": [
+      "4",
+      "6",
+      "5",
+      "7"
+    ],
+    "explication": "Le drapeau olympique, dessiné par Pierre de Coubertin en 1913, porte cinq anneaux entrelacés représentant les continents.",
+    "source": "CIO (olympics.com)",
+    "niveau": "facile",
+    "categorie": "Sport",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260730-163",
+    "question": "Dans la phrase \"Paul mange une pomme\", quelle est la nature du mot \"mange\" ?",
+    "choix": [
+      "Un nom",
+      "Un adjectif",
+      "Un adverbe",
+      "Un verbe"
+    ],
+    "explication": "\"Mange\" est un verbe, conjugué à la troisième personne du singulier du présent de l'indicatif.",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Langue française",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260730-164",
+    "question": "Dans quel film d'animation le jeune lion Simba doit-il succéder à son père Mufasa ?",
+    "choix": [
+      "Le Roi Lion",
+      "Le Livre de la jungle",
+      "Madagascar",
+      "Tarzan"
+    ],
+    "explication": "Le Roi Lion, sorti en 1994, raconte le parcours de Simba, fils du roi Mufasa.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Cinéma",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260730-165",
+    "question": "Quel légume sec constitue l'ingrédient principal du houmous ?",
+    "choix": [
+      "La fève",
+      "La lentille corail",
+      "Le pois chiche",
+      "Le haricot blanc"
+    ],
+    "explication": "Le houmous est une préparation à base de pois chiches écrasés, de purée de sésame (tahini), de jus de citron et d'ail.",
+    "source": "Larousse",
+    "niveau": "moyen",
+    "categorie": "Gastronomie",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260730-166",
+    "question": "Dans quel musée est exposée la statue antique de la Vénus de Milo ?",
+    "choix": [
+      "Le musée d'Orsay",
+      "Le British Museum",
+      "Le musée national archéologique d'Athènes",
+      "Le musée du Louvre"
+    ],
+    "explication": "Découverte en 1820 sur l'île de Milos, la Vénus de Milo est conservée au musée du Louvre depuis 1821.",
+    "source": "Musée du Louvre",
+    "niveau": "moyen",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260730-167",
+    "question": "Quel jeu vidéo, conçu en 1984 par l'informaticien soviétique Alexeï Pajitnov, consiste à emboîter des pièces géométriques qui tombent ?",
+    "choix": [
+      "Pac-Man",
+      "Tetris",
+      "Donkey Kong",
+      "Space Invaders"
+    ],
+    "explication": "Tetris est conçu en 1984 par Alexeï Pajitnov à Moscou ; il devient l'un des jeux les plus vendus de l'histoire du jeu vidéo.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Culture pop",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260730-168",
+    "question": "Quel écrivain est l'auteur du roman épistolaire \"Les Liaisons dangereuses\" (1782) ?",
+    "choix": [
+      "L'abbé Prévost",
+      "Le marquis de Sade",
+      "Choderlos de Laclos",
+      "Bernardin de Saint-Pierre"
+    ],
+    "explication": "Pierre Choderlos de Laclos, officier d'artillerie de carrière, publie Les Liaisons dangereuses en 1782.",
+    "source": "BnF",
+    "niveau": "difficile",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260730-169",
+    "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "choix": [
+      "Wellington",
+      "Auckland",
+      "Christchurch",
+      "Dunedin"
+    ],
+    "explication": "Wellington est la capitale de la Nouvelle-Zélande depuis 1865. Auckland, souvent citée par erreur, en est la ville la plus peuplée.",
+    "source": "Wikipédia",
+    "niveau": "difficile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260730-170",
+    "question": "Quel traité met fin à la guerre de Sept Ans en 1763 et fait perdre à la France la quasi-totalité de ses possessions nord-américaines ?",
+    "choix": [
+      "Le traité d'Aix-la-Chapelle",
+      "Le traité de Paris",
+      "Le traité de Vienne",
+      "Le traité de Hubertsbourg"
+    ],
+    "explication": "Le traité de Paris, signé le 10 février 1763, met fin à la guerre de Sept Ans : la France cède notamment le Canada à la Grande-Bretagne.",
+    "source": "Larousse",
+    "niveau": "très difficile",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260730-171",
+    "question": "Quelle scientifique britannique a réalisé le \"cliché 51\", image de diffraction déterminante pour établir la structure en double hélice de l'ADN ?",
+    "choix": [
+      "Barbara McClintock",
+      "Dorothy Hodgkin",
+      "Lise Meitner",
+      "Rosalind Franklin"
+    ],
+    "explication": "Rosalind Franklin obtient en 1952 le cliché 51 par diffraction des rayons X ; ce résultat est déterminant pour le modèle publié par Watson et Crick en 1953.",
+    "source": "Wikipédia / Nature",
+    "niveau": "très difficile",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-30",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260731-172",
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "choix": [
+      "Munich",
+      "Berlin",
+      "Francfort",
+      "Hambourg"
+    ],
+    "explication": "Berlin est la capitale de l'Allemagne et redevient le siège du gouvernement fédéral après la réunification.",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260731-173",
+    "question": "De quel pays la paella est-elle originaire ?",
+    "choix": [
+      "Portugal",
+      "Italie",
+      "Grèce",
+      "Espagne"
+    ],
+    "explication": "La paella est un plat de riz originaire de la région de Valence, en Espagne.",
+    "source": "Larousse",
+    "niveau": "facile",
+    "categorie": "Gastronomie",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260731-174",
+    "question": "Combien de bosses possède un dromadaire ?",
+    "choix": [
+      "Une",
+      "Deux",
+      "Trois",
+      "Aucune"
+    ],
+    "explication": "Le dromadaire possède une seule bosse, contrairement au chameau de Bactriane qui en compte deux.",
+    "source": "Muséum national d'histoire naturelle",
+    "niveau": "facile",
+    "categorie": "Nature",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260731-175",
+    "question": "Quel organe produit la bile, indispensable à la digestion des graisses ?",
+    "choix": [
+      "L'estomac",
+      "Le pancréas",
+      "Le foie",
+      "La rate"
+    ],
+    "explication": "La bile est produite en continu par le foie, puis stockée dans la vésicule biliaire avant d'être libérée dans l'intestin.",
+    "source": "Inserm",
+    "niveau": "moyen",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260731-176",
+    "question": "Combien de joueurs une équipe de volley-ball aligne-t-elle sur le terrain ?",
+    "choix": [
+      "5",
+      "7",
+      "4",
+      "6"
+    ],
+    "explication": "Une équipe de volley-ball aligne six joueurs sur le terrain, positionnés sur deux lignes de trois.",
+    "source": "FIVB",
+    "niveau": "moyen",
+    "categorie": "Sport",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260731-177",
+    "question": "Quel roi d'Angleterre rompt avec Rome en 1534 et se proclame chef de l'Église d'Angleterre ?",
+    "choix": [
+      "Édouard VI",
+      "Jacques Ier",
+      "Henri VIII",
+      "Richard III"
+    ],
+    "explication": "L'Acte de suprématie de 1534 fait d'Henri VIII le chef suprême de l'Église d'Angleterre, après le refus du pape d'annuler son mariage avec Catherine d'Aragon.",
+    "source": "Larousse / Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260731-178",
+    "question": "Quel compositeur et pianiste virtuose est l'auteur des \"Rhapsodies hongroises\" ?",
+    "choix": [
+      "Béla Bartók",
+      "Franz Liszt",
+      "Antonín Dvořák",
+      "Frédéric Chopin"
+    ],
+    "explication": "Franz Liszt compose ses dix-neuf Rhapsodies hongroises entre 1846 et 1885, inspirées de mélodies populaires magyares et tsiganes.",
+    "source": "Philharmonie de Paris",
+    "niveau": "difficile",
+    "categorie": "Musique",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260731-179",
+    "question": "Quel architecte a conçu la pyramide de verre de la cour Napoléon du Louvre, inaugurée en 1989 ?",
+    "choix": [
+      "Ieoh Ming Pei",
+      "Jean Nouvel",
+      "Renzo Piano",
+      "Norman Foster"
+    ],
+    "explication": "L'architecte américain d'origine chinoise Ieoh Ming Pei conçoit la pyramide, inaugurée en 1989 dans le cadre du chantier du Grand Louvre.",
+    "source": "Musée du Louvre",
+    "niveau": "difficile",
+    "categorie": "Art",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260731-180",
+    "question": "Quel président du Conseil français signe les accords de Munich en septembre 1938 ?",
+    "choix": [
+      "Édouard Daladier",
+      "Paul Reynaud",
+      "Léon Blum",
+      "Pierre Laval"
+    ],
+    "explication": "Édouard Daladier signe les accords de Munich les 29 et 30 septembre 1938, aux côtés de Neville Chamberlain, Adolf Hitler et Benito Mussolini.",
+    "source": "Herodote.net / Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Politique",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260731-181",
+    "question": "Quel écrivain, mort au front en 1914, est l'auteur du roman \"Le Grand Meaulnes\" (1913) ?",
+    "choix": [
+      "Raymond Radiguet",
+      "Alain-Fournier",
+      "Valery Larbaud",
+      "Jules Renard"
+    ],
+    "explication": "Alain-Fournier, pseudonyme d'Henri-Alban Fournier, publie Le Grand Meaulnes en 1913 et meurt au combat en septembre 1914, à 27 ans.",
+    "source": "BnF / Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-07-31",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260801-182",
+    "question": "Qui devient le premier empereur des Français, en 1804 ?",
+    "choix": [
+      "Charlemagne",
+      "Louis XVIII",
+      "Napoléon III",
+      "Napoléon Bonaparte"
+    ],
+    "explication": "Napoléon Bonaparte est sacré empereur des Français le 2 décembre 1804 à Notre-Dame de Paris. Son neveu Napoléon III sera le second, à partir de 1852.",
+    "source": "Herodote.net / Wikipédia",
+    "niveau": "facile",
+    "categorie": "Histoire",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260801-183",
+    "question": "Quel auteur français du XVIIe siècle a écrit \"Le Corbeau et le Renard\" et \"La Cigale et la Fourmi\" ?",
+    "choix": [
+      "Charles Perrault",
+      "Molière",
+      "Jean de La Fontaine",
+      "Pierre Corneille"
+    ],
+    "explication": "Jean de La Fontaine publie ses Fables en plusieurs recueils à partir de 1668.",
+    "source": "BnF",
+    "niveau": "facile",
+    "categorie": "Littérature",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260801-184",
+    "question": "Quel personnage de bande dessinée belge, créé par Hergé, est un jeune reporter accompagné du chien Milou ?",
+    "choix": [
+      "Spirou",
+      "Gaston Lagaffe",
+      "Tintin",
+      "Michel Vaillant"
+    ],
+    "explication": "Tintin, créé par Hergé en 1929, est un jeune reporter accompagné de son fox-terrier Milou.",
+    "source": "Wikipédia",
+    "niveau": "facile",
+    "categorie": "Culture pop",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260801-185",
+    "question": "Quel est le plus haut sommet d'Europe occidentale ?",
+    "choix": [
+      "Le Cervin",
+      "Le Grand Paradis",
+      "Le mont Rose",
+      "Le mont Blanc"
+    ],
+    "explication": "Le mont Blanc, situé entre la France et l'Italie, culmine à environ 4 806 m, altitude qui varie légèrement selon les mesures de sa calotte glaciaire.",
+    "source": "IGN",
+    "niveau": "moyen",
+    "categorie": "Géographie",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 3
+  },
+  {
+    "id": "q-20260801-186",
+    "question": "Quel terme désigne une période de recul durable de l'activité économique d'un pays ?",
+    "choix": [
+      "Une récession",
+      "Une inflation",
+      "Une déflation",
+      "Une dévaluation"
+    ],
+    "explication": "Une récession désigne un recul de l'activité économique, souvent caractérisé par au moins deux trimestres consécutifs de baisse du produit intérieur brut.",
+    "source": "INSEE",
+    "niveau": "moyen",
+    "categorie": "Économie",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260801-187",
+    "question": "Quel réalisateur américain a réalisé \"Le Parrain\" (1972) ?",
+    "choix": [
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Brian De Palma",
+      "Sidney Lumet"
+    ],
+    "explication": "Francis Ford Coppola réalise Le Parrain en 1972, d'après le roman de Mario Puzo ; le film remporte l'Oscar du meilleur film.",
+    "source": "Wikipédia",
+    "niveau": "moyen",
+    "categorie": "Cinéma",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260801-188",
+    "question": "Quel traité, signé en 1957, institue la Communauté économique européenne ?",
+    "choix": [
+      "Le traité de Maastricht",
+      "Le traité de Rome",
+      "Le traité de Lisbonne",
+      "L'Acte unique européen"
+    ],
+    "explication": "Le traité de Rome, signé le 25 mars 1957 par six États, institue la Communauté économique européenne (CEE). Maastricht (1992) créera l'Union européenne.",
+    "source": "Vie publique / Union européenne",
+    "niveau": "difficile",
+    "categorie": "Politique",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 1
+  },
+  {
+    "id": "q-20260801-189",
+    "question": "Quel logicien a démontré, en 1931, que tout système formel suffisamment puissant contient des énoncés vrais mais indémontrables ?",
+    "choix": [
+      "Kurt Gödel",
+      "David Hilbert",
+      "Bertrand Russell",
+      "Alan Turing"
+    ],
+    "explication": "Kurt Gödel publie en 1931 ses théorèmes d'incomplétude, qui mettent un terme au programme formaliste porté par David Hilbert.",
+    "source": "Encyclopædia Universalis",
+    "niveau": "difficile",
+    "categorie": "Sciences",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 0
+  },
+  {
+    "id": "q-20260801-190",
+    "question": "Quel compositeur est l'auteur de l'opéra fantastique \"Les Contes d'Hoffmann\", créé en 1881 ?",
+    "choix": [
+      "Charles Gounod",
+      "Georges Bizet",
+      "Jacques Offenbach",
+      "Camille Saint-Saëns"
+    ],
+    "explication": "Jacques Offenbach compose Les Contes d'Hoffmann à la fin de sa vie ; l'opéra est créé à l'Opéra-Comique de Paris en février 1881.",
+    "source": "Opéra-Comique / Wikipédia",
+    "niveau": "très difficile",
+    "categorie": "Musique",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 2
+  },
+  {
+    "id": "q-20260801-191",
+    "question": "Comment nomme-t-on l'emploi détourné d'un mot faute de terme propre, comme dans \"les pieds d'une table\" ?",
+    "choix": [
+      "L'oxymore",
+      "La périphrase",
+      "L'anacoluthe",
+      "La catachrèse"
+    ],
+    "explication": "La catachrèse étend le sens d'un mot pour nommer une réalité qui n'a pas de terme propre, comme \"les ailes d'un moulin\" ou \"les pieds d'une table\".",
+    "source": "Larousse",
+    "niveau": "très difficile",
+    "categorie": "Langue française",
+    "date_quotidien": "2026-08-01",
+    "reponse_correcte": 3
+  }
+]
+]
+  "prochain_nnn": 192
 }
